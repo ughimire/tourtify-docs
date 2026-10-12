@@ -37,5 +37,7 @@ The build also publishes every page as Markdown (`/path.md`, used by the "Copy p
 
 ## Deploy
 
-Deploy `.vitepress/dist` to any static host with clean URLs enabled (Cloudflare Pages, Netlify, Vercel, GitHub Pages).
-Build command `npm run build`, output directory `.vitepress/dist`.
+**Netlify:** import the repo; `netlify.toml` sets the build command (`npm run build`), publish directory
+(`.vitepress/dist`), Node 22 and security/caching headers, so no settings are needed in the Netlify UI.
+
+**Other hosts:** build with `npm run build` and serve `.vitepress/dist` with clean URLs enabled.
