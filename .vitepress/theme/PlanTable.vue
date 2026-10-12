@@ -1,8 +1,8 @@
 <script setup lang="ts">
 const plans = [
   { name: 'Starter', annual: 29, monthly: 39, seats: 3, media: '10 GB', blurb: 'Everything to sell online' },
-  { name: 'Growth', annual: 59, monthly: 79, seats: 8, media: '30 GB', blurb: 'Grow revenue and save time', popular: true },
-  { name: 'Scale', annual: 99, monthly: 129, seats: 25, media: '100 GB', blurb: 'Distribution and integrations' },
+  { name: 'Growth', annual: 59, monthly: 79, seats: 8, media: '20 GB', blurb: 'Grow revenue and save time', popular: true },
+  { name: 'Scale', annual: 99, monthly: 129, seats: 25, media: '40 GB', blurb: 'Distribution and integrations' },
 ]
 </script>
 

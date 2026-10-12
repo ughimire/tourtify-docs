@@ -59,8 +59,8 @@ The top of the screen shows **Storage used** against your plan's allowance. By d
 | Plan | Storage |
 |---|---|
 | Starter | 10 GB |
-| Growth | 30 GB |
-| Scale | 100 GB |
+| Growth | 20 GB |
+| Scale | 40 GB |
 
 When you reach the limit, new uploads are refused until you delete files or upgrade. See **Settings › Plan & usage**.
 

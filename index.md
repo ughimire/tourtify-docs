@@ -80,7 +80,7 @@ All plans include unlimited tours, unlimited bookings and 0% booking commission.
 | WhatsApp notifications, own email server | — | ✓ | ✓ |
 | Webhooks for CRM, accounting and automation | — | — | ✓ |
 | Team members | 3 | 8 | 25 |
-| Media storage | 10 GB | 30 GB | 100 GB |
+| Media storage | 10 GB | 20 GB | 40 GB |
 
 ## Need help fast?
 

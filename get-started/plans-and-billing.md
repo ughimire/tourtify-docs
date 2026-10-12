@@ -14,7 +14,7 @@ Tourtify has three plans. Every plan includes your booking website, unlimited to
 | **Price, billed yearly** | $29 / month | $59 / month | $99 / month |
 | **Price, billed monthly** | $39 / month | $79 / month | $129 / month |
 | **Team members** | 3 | 8 | 25 |
-| **Media storage** | 10 GB | 30 GB | 100 GB |
+| **Media storage** | 10 GB | 20 GB | 40 GB |
 | **Best for** | Selling online with a professional site | Growing revenue and saving admin time | Distribution, integrations and larger teams |
 
 Prices are in US dollars and exclude any sales tax or VAT that applies where you are.
