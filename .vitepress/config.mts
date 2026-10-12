@@ -190,7 +190,7 @@ export default defineConfig({
   sitemap: { hostname: SITE },
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
-    ['meta', { name: 'theme-color', content: '#5b47e6' }],
+    ['meta', { name: 'theme-color', content: '#5d47eb' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: TITLE }],
     ['meta', { property: 'og:image', content: `${SITE}/og.png` }],
@@ -226,8 +226,8 @@ export default defineConfig({
   },
   buildEnd: publishMarkdown,
   themeConfig: {
-    logo: { src: '/logo.svg', alt: 'Tourtify' },
-    siteTitle: 'Docs',
+    logo: { light: '/logo.svg', dark: '/logo-dark.svg', alt: 'Tourtify' },
+    siteTitle: 'Tourtify Docs',
     nav: [
       { text: 'Get started', link: '/get-started/introduction', activeMatch: '/get-started/' },
       {
