@@ -8,7 +8,7 @@ description: Collect verified reviews from Tourtify bookings, moderate and reply
 Tourtify collects reviews from travellers who actually travelled with you. After each trip, the review request email asks them to rate it. You choose which ratings go live automatically, reply publicly and add reviews from other sites. Reviews show on tour pages, tour cards and a `/reviews` page, with stars in Google results.
 
 ::: info Where to find it
-Console › Reviews
+Console › Growth › Marketing › Reviews
 :::
 
 The sidebar badge and the dashboard show reviews waiting for approval.
@@ -32,7 +32,7 @@ Under **Publishing**, pick one:
 Lower ratings wait in Pending for you to approve.
 
 ::: tip Send happy travellers to Google
-After a good review, travellers are invited to share it on Google or Tripadvisor. Set that link in **Settings › Travellers › Emails › Review request**.
+The review request also invites travellers to share their experience on Google or Tripadvisor; every traveller gets the same links, whatever their rating, as review platforms require. Set that link in **Settings › Notifications & messages › Emails › Review request**.
 :::
 
 ## Moderate reviews

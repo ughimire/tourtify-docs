@@ -10,7 +10,7 @@ The Khalti plugin lets travellers pay in Nepali rupees with the Khalti wallet, m
 ::: info At a glance
 - **Plan:** All plans
 - **Category:** Payments
-- **Where:** Console › Plugins › Khalti, and Settings › Business › Payments
+- **Where:** Console › Plugins › Khalti, and Settings › Payments & tax › Payments
 :::
 
 ## How it works
@@ -32,7 +32,7 @@ Tourtify confirms every payment with Khalti's lookup API: when the traveller ret
 
 1. Go to **Console › Plugins**.
 2. Find **Khalti** and flip its switch on.
-3. In the plugin's drawer, find **Connection** and select **Connect**. (You can also connect from **Settings › Business › Payments** › **Add a provider**.)
+3. In the plugin's drawer, find **Connection** and select **Connect**. (You can also connect from **Settings › Payments & tax › Payments** › **Add a provider**.)
 4. Choose a **Mode**: **Test (sandbox keys)** or **Live (real payments)**.
 5. Paste your **Secret key** and select **Check and connect**. Tourtify checks the key with Khalti before saving and stores it encrypted.
 
@@ -46,7 +46,7 @@ The plugin drawer shows the mode you're in:
 
 ## Settings
 
-Khalti has no settings of its own. Your key and mode are managed on **Settings › Business › Payments**.
+Khalti has no settings of its own. Your key and mode are managed on **Settings › Payments & tax › Payments**.
 
 ## Currency
 

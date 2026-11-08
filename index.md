@@ -24,11 +24,11 @@ hero:
 
 features:
   - title: Website included
-    details: Six themes, a visual Theme Builder, pages, blog, menus, custom domains with automatic HTTPS and SEO built in.
+    details: Ten themes, a visual editor, pages, blog, menus, custom domains with automatic HTTPS, website languages and SEO built in.
   - title: Booking engine without commission
-    details: Live availability, no overselling, deposits, promo codes and Stripe, PayPal, Razorpay or Khalti paid straight to you.
+    details: Live availability, no overselling, deposits, discounts, gift vouchers and Stripe, PayPal or 15+ regional providers paid straight to you.
   - title: Operations that scale
-    details: Manifests, QR check-in, traveller forms, waivers, guides, reviews and reports, with a role for every teammate.
+    details: Manifests, QR check-in, resources and guides, suppliers, invoices, accounting sync and reports, with a role for every teammate.
 ---
 
 ## Before you begin
@@ -53,34 +53,36 @@ All plans include unlimited tours, unlimited bookings and 0% booking commission.
   { icon: 'card', title: 'Pricing', text: 'Traveller types, minimum travellers, taxes, and plugin-driven seasonal and group prices.', link: '/tours/pricing' },
   { icon: 'ticket', title: 'Bookings', text: 'Statuses, booking details, manual bookings, changes, refunds and cancellations.', link: '/bookings/bookings' },
   { icon: 'shield', title: 'Payments', text: 'Connect Stripe in minutes, add regional gateways and record offline payments.', link: '/bookings/payments' },
-  { icon: 'users', title: 'Customers & portal', text: 'Customer records and the traveller portal with magic-link sign-in and PDFs.', link: '/bookings/customers' },
+  { icon: 'users', title: 'Customers & portal', text: 'Customer records and My bookings, where travellers sign in with an emailed link or a password.', link: '/bookings/customers' },
   { icon: 'globe', title: 'Custom domains', text: 'Connect your own domain with a TXT and CNAME record. HTTPS is automatic.', link: '/website/custom-domains' },
   { icon: 'layout', title: 'Theme Builder', text: 'Pick a theme, then edit header, footer, colours, fonts and home page blocks live.', link: '/website/theme-builder' },
   { icon: 'search', title: 'SEO', text: 'Titles, descriptions, schema, sitemaps, redirects and the per-page SEO score.', link: '/website/seo' },
-  { icon: 'puzzle', title: 'Plugins', text: 'Deposits, waivers, WhatsApp, waitlist and 20+ more. Switch on only what you need.', link: '/plugins/', badge: '25' },
+  { icon: 'puzzle', title: 'Plugins', text: 'Payments, inbox, campaigns, OTAs, point of sale, accounting and 60+ more. Switch on only what you need.', link: '/plugins/', badge: '63' },
   { icon: 'mail', title: 'Emails', text: 'Branded booking emails, reminders and your own sending address.', link: '/bookings/emails' },
   { icon: 'chart', title: 'Reports', text: 'Revenue collected, conversion, lead time, top tours, balances and CSV exports.', link: '/bookings/reports' },
   { icon: 'download', title: 'Move from WordPress', text: 'Import WP Travel Engine trips, pages, posts and images with 301 redirects.', link: '/get-started/import-from-wordpress' },
-  { icon: 'code', title: 'Developers', text: 'Signed webhooks, payload reference, signature verification and the data model.', link: '/developers/', badge: 'Scale' },
+  { icon: 'globe', title: 'Website languages', text: 'Your website in up to 10 extra languages, translated by hand or with AI.', link: '/website/languages' },
+  { icon: 'code', title: 'Developers', text: 'REST API, signed webhooks, payload reference, signature verification and the data model.', link: '/developers/', badge: 'Scale' },
 ]" />
 
 ## Plans at a glance
 
 | Capability | Starter | Growth | Scale |
 |---|:---:|:---:|:---:|
-| Booking website, custom domain, SEO, blog | ✓ | ✓ | ✓ |
+| Booking website, custom domain, SEO, blog, website languages | ✓ | ✓ | ✓ |
 | Unlimited tours and bookings, 0% commission | ✓ | ✓ | ✓ |
-| Stripe, PayPal, Razorpay, Khalti | ✓ | ✓ | ✓ |
-| Deposits & balance payments, promo codes | ✓ | ✓ | ✓ |
-| Abandoned checkout recovery, GA4, Meta Pixel | ✓ | ✓ | ✓ |
-| QR tickets & check-in, manifests | ✓ | ✓ | ✓ |
-| Add-ons, group discounts, dynamic pricing | — | ✓ | ✓ |
-| Instalments, booking fees, currency switcher | — | ✓ | ✓ |
-| Waitlist, traveller forms, waivers, tour guides, hotel booking | — | ✓ | ✓ |
-| WhatsApp notifications, own email server | — | ✓ | ✓ |
-| Webhooks for CRM, accounting and automation | — | — | ✓ |
+| Stripe, PayPal, every regional provider, bank transfer | ✓ | ✓ | ✓ |
+| Deposits, promo codes, automatic discounts, gift vouchers | ✓ | ✓ | ✓ |
+| Invoices & e-invoicing, abandoned checkout recovery, GA4, Meta Pixel | ✓ | ✓ | ✓ |
+| QR tickets, resources & tasks, Google Things to do, AI assistant | ✓ | ✓ | ✓ |
+| Add-ons, group discounts, dynamic pricing, instalments, booking fees | — | ✓ | ✓ |
+| Inbox, email campaigns, automations, WhatsApp and SMS notifications | — | ✓ | ✓ |
+| Channel manager (OTAs), resellers & agents, point of sale, quotes | — | ✓ | ✓ |
+| Traveller details, waivers, guides, suppliers, trekking, costs & profit | — | ✓ | ✓ |
+| Xero, QuickBooks, Zoho Books, Sage and MYOB | — | ✓ | ✓ |
+| Public API, webhooks, white label | — | — | ✓ |
 | Team members | 3 | 8 | 25 |
-| Media storage | 10 GB | 20 GB | 40 GB |
+| Media storage | 10 GB | 20 GB | 100 GB |
 
 ## Need help fast?
 

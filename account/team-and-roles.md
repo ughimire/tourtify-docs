@@ -8,7 +8,7 @@ description: Invite team members to Tourtify, choose their role or access group,
 Invite guides, office staff and partners so they can work in Tourtify with their own sign-in. Each person gets a role that decides what they can see and do. Your plan sets how many people can join.
 
 ::: info Where to find it
-Console › Settings › Team & tools › Team
+Console › Settings › Team & access › Team
 :::
 
 ## Seats per plan
@@ -26,11 +26,30 @@ The owner counts as a seat, and **pending invitations count as seats**. The Team
 | Role | Can do |
 |---|---|
 | Owner | Everything, including billing, payment accounts and deleting the business |
-| Admin | Everything except billing: tours, bookings, refunds, team, plugins, settings |
-| Sales agent | Takes and manages bookings and enquiries; can view tours |
-| Guide | Sees departures and bookings to run trips, and checks travellers in; read-only otherwise |
+| Admin | Everything except billing: tours, bookings, refunds, team, plugins, settings, publishing the website, sending campaigns, reports and finance |
+| Sales agent | Takes and manages bookings and enquiries, exports bookings and customers; can view tours |
+| Guide | Sees their departures and bookings to run trips, and checks travellers in; read-only otherwise |
 
 **Access groups** are extra roles set up by Tourtify for your plan, for example a role for a specific team. They appear under **Access groups** when you choose a role. People with an access group have **Custom access**: only what their group allows.
+
+Tourtify can adjust the built-in Admin, Sales agent and Guide roles for every business. When a role was adjusted, the invite form says **Adjusted by Tourtify for every business on the platform** and lists what the role allows. The owner role never changes.
+
+## Permissions
+
+Every role and access group is made of these permissions. A few are kept apart on purpose, so you can give one without the other:
+
+| Permission | Kept apart from | Why |
+|---|---|---|
+| Export bookings, customers, enquiries and the mailing list with contact details (CSV) | Seeing the bookings list, customers and enquiries | Seeing one customer is everyday work; downloading every customer's contact details in one file is how customer lists leave a business |
+| Publish the website: the design, pages and posts, and schedule publishing | Editing tours, pages, blog and media | A writer or freelancer can prepare changes that someone else puts live. Without it, pages are saved as drafts and a live page can only be changed by someone who can publish |
+| Move tours to the Trash and delete tours and pages permanently | Editing tours and pages | Deleting can't be undone the way an edit can |
+| Send and schedule email campaigns | Writing campaigns, sending tests, managing the mailing list and segments | A campaign reaches every subscriber at once. A scheduled campaign is changed only by someone who can send |
+| Reply to reviews in public (with AI drafts) | Publishing, hiding, editing, importing and deleting reviews | Replying and deciding what your website shows are different jobs |
+| See sales reports and revenue on the dashboard | Accounting, payouts, invoices, profit, tax registers and finance exports | A manager can follow sales without the books and bank details |
+
+Buttons you can't use are hidden, and the server refuses the action too.
+
+The **Access review** download on the Team screen lists everyone with what their role or group allows today.
 
 ::: tip Least access
 Give guides the Guide role. They can see manifests and check travellers in on their phone, without access to money or settings.
@@ -38,7 +57,7 @@ Give guides the Guide role. They can see manifests and check travellers in on th
 
 ## Invite someone
 
-1. Go to **Settings › Team** and choose **Invite member**.
+1. Go to **Settings › Team & access › Team** and choose **Invite member**.
 2. Enter their **Email** and choose a **Role**.
 3. Choose **Send invite**.
 
@@ -54,7 +73,7 @@ Choose **Remove from team** in the member's actions. They lose access to your bu
 
 ## When all seats are in use
 
-You'll see "All *n* seats are in use". To invite more people, upgrade your plan in **Settings › Plan & usage**, cancel a pending invitation or remove someone.
+You'll see "All *n* seats are in use". To invite more people, upgrade your plan in **Settings › Plan & billing › Plan & usage**, cancel a pending invitation or remove someone.
 
 ## Working in several businesses
 

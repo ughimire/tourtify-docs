@@ -13,24 +13,25 @@ It suits day tours and activities (walking tours, food tours, boat trips, classe
 
 | Part | What it is | Who uses it |
 |---|---|---|
-| **Your website** | A complete public site at `yourbusiness.tourtify.site` or your own domain: home page, tour pages, destinations, blog, checkout and a traveller portal. | Travellers |
+| **Your website** | A complete public site at `yourbusiness.tourtify.site` or your own domain: home page, tour pages, destinations, blog, checkout and **My bookings** for travellers, in as many languages as you need. | Travellers |
 | **The console** | Where you and your team work: tours, departures, bookings, enquiries, customers, reports, website and settings. Sign in at `app.tourtify.com`. | You and your team |
-| **Plugins** | Optional features you switch on when you need them, such as deposits, waivers, WhatsApp or webhooks. | You |
-| **Integrations** | Payment providers, analytics, email and your other tools via signed webhooks. | You and your developers |
+| **Plugins** | Optional features you switch on when you need them, such as deposits, the shared inbox, OTA channels, point of sale or accounting sync. | You |
+| **Integrations** | Payment providers, OTAs, accounting software, analytics, email, and your own tools through the REST API and signed webhooks. | You and your developers |
 
 ## How a booking flows
 
 1. A traveller finds your tour page through Google, social media or a link you shared.
 2. They pick a date, choose travellers (Adult, Child…) and any extras. Seats are **held** while they pay, so two people can never buy the last seat.
-3. They pay by card or another method you enabled. The money goes into **your** Stripe, PayPal, Razorpay or Khalti account.
+3. They pay by card or another method you enabled. The money goes into **your** own Stripe, PayPal or other provider account (see [Payment providers](/plugins/payment-providers)).
 4. They receive a branded confirmation email with their booking page, receipt PDF and calendar file.
 5. You see the booking in the console, the departure's manifest updates, and any automations you enabled (reminders, balance charges, WhatsApp messages, webhooks) run on schedule.
 
 ## What makes Tourtify different
 
 - **0% commission, public pricing.** One flat price per plan. No percentage of your revenue, ever.
-- **A real website, not a widget.** Six themes and a visual Theme Builder, with SEO, schema markup and sitemaps done for you.
+- **A real website, not a widget.** Ten themes (four of them premium) and a visual editor, with SEO, schema markup and sitemaps done for you.
 - **Day trips and multi-day trips.** Itineraries, deposits, instalments, hotel rooms, traveller forms, waivers and manifests are built in or one switch away.
+- **Works where you work.** The console speaks fifteen languages, your website up to eleven at once, and payments work with local providers from Nepal to Brazil.
 - **Your data stays yours.** Each business is isolated at the database level; you can export bookings and customers whenever you like, and pausing a subscription never deletes content.
 
 ## Where to go next

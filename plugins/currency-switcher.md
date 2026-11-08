@@ -9,7 +9,7 @@ The currency switcher lets travellers browse and pay in their own currency. You 
 
 ::: info At a glance
 - **Plan:** Growth and Scale
-- **Category:** Payments
+- **Category:** Website
 - **Where:** Console › Plugins › Currency switcher, and each tour's pricing
 :::
 
@@ -46,28 +46,23 @@ Checkout always charges in the currency the tour is priced in. Approximate price
 
 | Setting | What it does | Default |
 |---|---|---|
-| Show approximate prices | For tours without a price in the visitor's currency, show "≈ €92" next to the real price. Checkout says they are charged in the tour's currency. | Off |
-| Exchange rates | One per line: `currency=rate` for 1 unit of your main currency, e.g. `EUR=0.92`. Nothing is charged at these rates. | Empty |
-| Markup on converted prices (%) | Covers card and conversion fees, so the estimate isn't lower than what the traveller's bank will charge. 0–15. | 0 |
+| Show approximate prices | For tours without a price in the visitor's currency, show "≈ €92" next to the real price. Checkout says they are charged in the tour's currency. | On |
 | Rounding | No rounding (€91.73), Whole amounts (€92), Ending in .99 (€91.99), Nearest 5 (€90) or Nearest 10 (€90). | Whole amounts |
 
 The drawer shows which currencies are offered on your website and, if approximate prices are on, any currency without a rate.
 
-## Enter exchange rates
+## Exchange rates
 
-To show approximate prices, add a rate for each extra currency:
+Approximate prices use the rates on **Settings › Exchange rates**. Nothing is charged at these rates.
 
-```
-EUR=0.92
-GBP=0.79
-AUD=1.52
-```
+- **Automatic daily rates** (the default): Tourtify fetches reference rates every day, from the European Central Bank or, for businesses in Nepal, from Nepal Rastra Bank (**Rate source**). You don't need to enter anything: rates arrive a few minutes after you switch the plugin on, or press **Refresh now**.
+- **Your rate** for a currency always wins over the automatic one. Leave it empty to use the automatic rate.
+- **My own rates**: switch off automatic rates and enter a rate for each extra currency yourself, for 1 unit of your main currency (e.g. 0.92 for EUR).
+- **Markup** (0–15%) is added on top of every rate, so an estimate isn't lower than what a traveller's bank charges.
 
-Update rates when they move. Visitors choosing a currency without a rate see only the real price.
+If automatic rates can't be fetched one day, the last good rates stay in use and Tourtify tries again the next day. A currency with no rate at all shows only the real price.
 
-::: warning Approximate prices need rates
-You can't switch **Show approximate prices** on without at least one rate.
-:::
+The same rate source is used to value every payment and refund in your main currency for your reports.
 
 ## Payment gateways and currencies
 

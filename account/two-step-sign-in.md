@@ -17,7 +17,7 @@ An authenticator app on your phone, such as Google Authenticator, Microsoft Auth
 
 ## Turn it on
 
-1. Go to **Settings › Password** and find **Two-step sign-in**.
+1. Go to **Settings › Your account › Password** and find **Two-step sign-in**.
 2. Choose **Set up two-step sign-in**.
 3. Scan the QR code with your authenticator app, or type the key shown.
 4. Enter the **6-digit code** the app shows and choose **Turn on**.
@@ -39,7 +39,7 @@ Each recovery code gets you in once if you lose your phone. They won't be shown 
 
 1. On the code screen, choose **Lost your phone? Use a recovery code**.
 2. Enter one of your saved recovery codes and sign in.
-3. Go to **Settings › Password** and set up two-step sign-in again on your new phone.
+3. Go to **Settings › Your account › Password** and set up two-step sign-in again on your new phone.
 
 Each recovery code works once. The Password screen shows how many you have left.
 

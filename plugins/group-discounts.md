@@ -7,10 +7,12 @@ description: Give bigger groups an automatic discount, such as 4+ travellers sav
 
 Group discounts reward larger bookings automatically. You set tiers such as "4+ travellers save 5%, 8+ save 10%", and the right discount applies at checkout without a code. Showing the saving on your tour pages nudges travellers to bring friends.
 
+Group discounts are part of the [Discounts](./discounts) plugin, on the Growth and Scale plans.
+
 ::: info At a glance
 - **Plan:** Growth and Scale
 - **Category:** Sales
-- **Where:** Console › Plugins › Group discounts, and Tours › Group discounts
+- **Where:** Console › Plugins › Discounts, and Sales › Pricing › Discounts › Group discounts
 :::
 
 ## How it works
@@ -29,13 +31,14 @@ Group discounts reward larger bookings automatically. You set tiers such as "4+ 
 
 **What your team sees**
 
-**Tours › Group discounts** shows your tiers per tour, plus group bookings, average group size, discount given and revenue.
+**Sales › Pricing › Discounts › Group discounts** shows your tiers per tour, plus group bookings, average group size, discount given and revenue.
 
 ## Turn it on
 
 1. Go to **Console › Plugins**.
-2. Find **Group discounts** and flip its switch on.
-3. Open **Tours › Group discounts** and add your default tiers.
+2. Find **Discounts** and flip its switch on.
+3. Select **Configure**. Under **What’s included**, make sure **Group discounts** is switched on, then **Save**.
+4. Open **Sales › Pricing › Discounts › Group discounts** and add your default tiers.
 
 ## Settings
 
@@ -48,7 +51,7 @@ Group discounts reward larger bookings automatically. You set tiers such as "4+ 
 
 Default tiers apply to every tour without its own tiers.
 
-1. Go to **Tours › Group discounts** and select **All tours (default)**.
+1. Go to **Sales › Pricing › Discounts › Group discounts** and select **All tours (default)**.
 2. Select **Add tier**. Enter the **Minimum travellers** and the **Discount percent**.
 3. Add more tiers as needed, e.g. 4+ save 5%, 8+ save 10%.
 4. Choose what the **Discount applies to**:
@@ -63,7 +66,7 @@ Default tiers apply to every tour without its own tiers.
 
 ## Give a tour its own tiers
 
-1. On **Tours › Group discounts**, use **Give a tour its own tiers** and choose a tour.
+1. On **Sales › Pricing › Discounts › Group discounts**, use **Give a tour its own tiers** and choose a tour.
 2. Add its tiers and select **Save discounts**.
 
 The tour then uses its own tiers instead of the default. Remove them all to go back to the default.

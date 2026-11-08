@@ -7,10 +7,12 @@ description: Move tour prices with demand using early-bird savings, last-minute 
 
 Dynamic pricing moves your ticket prices with timing and demand. Reward early bookers, fill the last seats with a last-minute deal, or charge more for nearly full departures and peak dates. You set the rules once and they apply automatically.
 
+Dynamic pricing is part of the [Discounts](./discounts) plugin, on the Growth and Scale plans.
+
 ::: info At a glance
 - **Plan:** Growth and Scale
 - **Category:** Sales
-- **Where:** Console › Plugins › Dynamic pricing, and Tours › Dynamic pricing
+- **Where:** Console › Plugins › Discounts, and Sales › Pricing › Discounts › Dynamic pricing
 :::
 
 ## How it works
@@ -31,8 +33,9 @@ Dynamic pricing moves your ticket prices with timing and demand. Reward early bo
 ## Turn it on
 
 1. Go to **Console › Plugins**.
-2. Find **Dynamic pricing** and flip its switch on.
-3. Open **Tours › Dynamic pricing** and select **New rule**.
+2. Find **Discounts** and flip its switch on.
+3. Select **Configure**. Under **What’s included**, make sure **Dynamic pricing** is switched on, then **Save**.
+4. Open **Sales › Pricing › Discounts › Dynamic pricing** and select **New rule**.
 
 ## Settings
 
@@ -51,7 +54,7 @@ Dynamic pricing moves your ticket prices with timing and demand. Reward early bo
 
 ## Create a pricing rule
 
-1. Go to **Tours › Dynamic pricing** and select **New rule**.
+1. Go to **Sales › Pricing › Discounts › Dynamic pricing** and select **New rule**.
 2. Enter a **Name**, e.g. "Book 60 days ahead".
 3. Choose the rule type and fill in its condition (days, occupancy, or weekdays and dates).
 4. Under **Price change**, choose **Lower by** or **Raise by** and enter a **Percent**.

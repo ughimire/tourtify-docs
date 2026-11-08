@@ -7,10 +7,12 @@ description: Create percentage or fixed-amount promo codes with date windows, to
 
 Promo codes let you run promotions, reward newsletter subscribers and give partners their own codes. Travellers type the code at checkout, or open a promo link that applies it for them. You control when a code works, which tours it covers, how often it can be used and how it combines with other discounts.
 
+Promo codes are part of the [Discounts](./discounts) plugin, included on every plan.
+
 ::: info At a glance
 - **Plan:** All plans
-- **Category:** Marketing
-- **Where:** Console › Plugins › Promo codes, and Tours › Promo codes
+- **Category:** Sales
+- **Where:** Console › Plugins › Discounts, and Sales › Pricing › Discounts › Promo codes
 :::
 
 ## How it works
@@ -23,13 +25,14 @@ Promo codes let you run promotions, reward newsletter subscribers and give partn
 
 **What your team sees**
 
-**Tours › Promo codes** lists your codes and batches with their status (**Live**, **Scheduled**, **Paused**, **Expired**, **Used up**), uses, discount given and revenue from codes. A use is counted when the booking is confirmed.
+**Sales › Pricing › Discounts › Promo codes** lists your codes and batches with their status (**Live**, **Scheduled**, **Paused**, **Expired**, **Used up**), uses, discount given and revenue from codes. A use is counted when the booking is confirmed.
 
 ## Turn it on
 
 1. Go to **Console › Plugins**.
-2. Find **Promo codes** and flip its switch on.
-3. Open **Tours › Promo codes** to create your first code.
+2. Find **Discounts** and flip its switch on.
+3. Select **Configure**. Under **What’s included**, make sure **Promo codes** is switched on, then **Save**.
+4. Open **Sales › Pricing › Discounts › Promo codes** to create your first code.
 
 ## Settings
 
@@ -40,7 +43,7 @@ Promo codes let you run promotions, reward newsletter subscribers and give partn
 
 ## Create a promo code
 
-1. Go to **Tours › Promo codes** and select **Create code**.
+1. Go to **Sales › Pricing › Discounts › Promo codes** and select **Create code**.
 2. Under **Code and discount**, enter the **Code** (letters, numbers, `-` and `_`, at least 3 characters), for example `SUMMER10`.
 3. Choose the **Discount type**: **% off** or a fixed amount off in your currency, and enter the **Discount**.
 4. Set the rules you need (all optional):
@@ -68,7 +71,7 @@ Automatic discounts are [group discounts](./group-discounts), price cuts from [d
 
 Use a batch for unique codes that each work once, for example for a partner newsletter.
 
-1. On **Tours › Promo codes**, select **Generate codes**.
+1. On **Sales › Pricing › Discounts › Promo codes**, select **Generate codes**.
 2. Enter a **Name** (e.g. "Partner newsletter"), a **Prefix** and **How many** codes you need.
 3. Set the discount and rules. They apply to every code in the batch.
 4. Select **Generate**, then **Download CSV** to get the list.

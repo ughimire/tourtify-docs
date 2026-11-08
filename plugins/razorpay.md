@@ -10,7 +10,7 @@ The Razorpay plugin lets travellers in India pay with UPI, cards, net banking an
 ::: info At a glance
 - **Plan:** All plans
 - **Category:** Payments
-- **Where:** Console › Plugins › Razorpay, and Settings › Business › Payments
+- **Where:** Console › Plugins › Razorpay, and Settings › Payments & tax › Payments
 :::
 
 ## How it works
@@ -36,7 +36,7 @@ When you refund a booking paid with Razorpay, Tourtify sends the refund to Razor
 
 1. Go to **Console › Plugins**.
 2. Find **Razorpay** and flip its switch on.
-3. In the plugin's drawer, find **Connection** and select **Connect**. (You can also connect from **Settings › Business › Payments** › **Add a provider**.)
+3. In the plugin's drawer, find **Connection** and select **Connect**. (You can also connect from **Settings › Payments & tax › Payments** › **Add a provider**.)
 4. Choose a **Mode**: **Test (sandbox keys)** or **Live (real payments)**.
 5. Paste your **Key ID** and **Key secret**, then select **Check and connect**. Tourtify checks the keys with Razorpay before saving and stores them encrypted.
 

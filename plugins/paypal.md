@@ -10,7 +10,7 @@ The PayPal plugin lets travellers pay with their PayPal account or a card throug
 ::: info At a glance
 - **Plan:** All plans
 - **Category:** Payments
-- **Where:** Console › Plugins › PayPal, and Settings › Business › Payments
+- **Where:** Console › Plugins › PayPal, and Settings › Payments & tax › Payments
 :::
 
 ## How it works
@@ -36,7 +36,7 @@ When you refund a booking paid with PayPal, Tourtify sends the refund to PayPal 
 
 1. Go to **Console › Plugins**.
 2. Find **PayPal** and flip its switch on.
-3. In the plugin's drawer, find **Connection** and select **Connect**. (You can also connect from **Settings › Business › Payments** › **Add a provider**.)
+3. In the plugin's drawer, find **Connection** and select **Connect**. (You can also connect from **Settings › Payments & tax › Payments** › **Add a provider**.)
 4. Choose a **Mode**: **Test (sandbox keys)** or **Live (real payments)**.
 5. Paste your **Client ID** and **Secret**, then select **Check and connect**. Tourtify checks the keys with PayPal before saving and stores them encrypted.
 

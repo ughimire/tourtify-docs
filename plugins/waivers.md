@@ -10,8 +10,8 @@ Waivers & consent has each traveller sign your waiver or terms before the trip, 
 ::: info At a glance
 - **Plan:** Growth and Scale
 - **Category:** Operations
-- **Where:** Console › Plugins › Waivers & consent, and Bookings › Waivers
-- **Works with:** [Traveller details forms](./traveller-forms), [QR tickets & check-in](./qr-tickets), [Tour guides](./tour-guides)
+- **Where:** Console › Plugins › Waivers & consent, and Operations › Waivers
+- **Works with:** [Traveller details](./traveller-forms), [QR tickets & check-in](./qr-tickets), [Tour guides](./tour-guides)
 :::
 
 ## How it works
@@ -28,7 +28,7 @@ For each signature: the signer, time, IP address, device, the exact text and its
 
 **What your team sees**
 
-**Bookings › Waivers** shows your main waiver, tours with their own waiver, and the latest signatures. The departure manifest shows who has signed.
+**Operations › Waivers** shows your main waiver, tours with their own waiver, and the latest signatures. The departure manifest shows who has signed.
 
 ## Turn it on
 
@@ -72,7 +72,7 @@ Until you add waiver text, only tours with their own waiver ask travellers to si
 
 Some activities need different terms, e.g. rafting or paragliding.
 
-1. Go to **Bookings › Waivers**.
+1. Go to **Operations › Waivers**.
 2. Find the tour under **Waiver per tour** and select **Give it its own waiver**.
 3. Enter the **Title** and **Waiver text**. Plain text; blank lines start a new paragraph.
 4. Select **Save tour waiver**.
@@ -95,7 +95,7 @@ The kiosk only gives access to that one booking, never to the booking's private 
 
 ## Download evidence
 
-On **Bookings › Waivers**, under **Recent signatures**, select **Evidence** next to a signature. You get a PDF evidence record with the signer, time, IP, device, the exact text and its hashes.
+On **Operations › Waivers**, under **Recent signatures**, select **Evidence** next to a signature. You get a PDF evidence record with the signer, time, IP, device, the exact text and its hashes.
 
 ## Good to know
 
@@ -109,6 +109,6 @@ Tourtify records and protects signatures. Whether a waiver is enforceable depend
 
 ## Related
 
-- [Traveller details forms](./traveller-forms)
+- [Traveller details](./traveller-forms)
 - [QR tickets & check-in](./qr-tickets)
 - [Tour guides](./tour-guides)

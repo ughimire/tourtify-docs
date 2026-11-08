@@ -27,7 +27,7 @@ These rules apply to everything Tourtify sends you. See [Data model & money](./d
 ## Get started with webhooks
 
 1. Make sure your business is on the Scale plan, then switch on **Webhooks** in **Console › Plugins**.
-2. Open **Settings › Team & tools › Webhooks**, add your endpoint URL and pick events.
+2. Open **Settings › Integrations & developers › Webhooks**, add your endpoint URL and pick events.
 3. Copy the signing secret (`whsec_…`) and [verify signatures](./verify-signatures) on every request.
 4. Use **Send test event** to see a realistic payload arrive.
 

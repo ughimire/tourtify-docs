@@ -10,7 +10,7 @@ The waitlist keeps selling once a date is full. Instead of a dead end, traveller
 ::: info At a glance
 - **Plan:** Growth and Scale
 - **Category:** Sales
-- **Where:** Console › Plugins › Waitlist, and Bookings › Waitlist
+- **Where:** Console › Plugins › Waitlist, and Sales › Bookings › Waitlist
 :::
 
 ## How it works
@@ -27,7 +27,7 @@ Seats can free up after a cancellation, an unpaid checkout that expired, or when
 
 **What your team sees**
 
-**Bookings › Waitlist** shows departures with a line, how many groups are waiting, offers out and the demand you could sell. You can offer seats by hand, move someone to the top, or add seats to a departure.
+**Sales › Bookings › Waitlist** shows departures with a line, how many groups are waiting, offers out and the demand you could sell. You can offer seats by hand, move someone to the top, or add seats to a departure.
 
 ## Turn it on
 
@@ -53,7 +53,7 @@ Seats can free up after a cancellation, an unpaid checkout that expired, or when
 
 ## Manage the waitlist
 
-Open **Bookings › Waitlist**.
+Open **Sales › Bookings › Waitlist**.
 
 - **Departures with a line** lists dates where people are waiting, with seats taken and free.
 - Each person shows a status: **Waiting**, **Offer out**, **Held**, **Booked from waitlist**, **Offer lapsed** or **Closed**.

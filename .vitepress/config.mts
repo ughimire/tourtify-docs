@@ -7,32 +7,61 @@ const WEBSITE = 'https://tourtify.com'
 const APP = 'https://app.tourtify.com'
 const TITLE = 'Tourtify Docs'
 const DESCRIPTION =
-  'Guides and reference for Tourtify, the commission-free booking platform for tour and activity operators: website, tours, bookings, payments, plugins and developer APIs.'
+  'Guides and reference for Tourtify, the commission-free booking platform for tour and activity operators: website, tours, bookings, payments, 60+ plugins and developer APIs.'
 
+// Grouped like the console's plugin categories (Plugins page), in the same order.
 const plugins: DefaultTheme.SidebarItem[] = [
   { text: 'Plugins overview', link: '/plugins/' },
   {
     text: 'Payments',
     collapsed: true,
     items: [
-      { text: 'Deposits & balance payments', link: '/plugins/deposits' },
+      { text: 'Deposits & instalments', link: '/plugins/deposits' },
       { text: 'Instalment plans', link: '/plugins/instalments' },
-      { text: 'Booking & traveller fees', link: '/plugins/booking-fees' },
-      { text: 'Currency switcher', link: '/plugins/currency-switcher' },
+      { text: 'Pay by bank transfer', link: '/plugins/bank-transfer' },
+      { text: 'Company accounts', link: '/plugins/company-accounts' },
+      { text: 'Refund approvals', link: '/plugins/refund-approvals' },
+    ],
+  },
+  {
+    text: 'Payment providers',
+    collapsed: true,
+    items: [
+      { text: 'All payment providers', link: '/plugins/payment-providers' },
       { text: 'PayPal', link: '/plugins/paypal' },
-      { text: 'Razorpay', link: '/plugins/razorpay' },
-      { text: 'Khalti', link: '/plugins/khalti' },
+      { text: 'Razorpay (India)', link: '/plugins/razorpay' },
+      { text: 'Khalti (Nepal)', link: '/plugins/khalti' },
+      { text: 'eSewa & Fonepay (Nepal)', link: '/plugins/payments-south-asia' },
+      { text: 'Mollie & Square', link: '/plugins/payments-europe-north-america' },
+      { text: 'Mercado Pago (Latin America)', link: '/plugins/payments-latin-america' },
+      { text: 'Paystack & Flutterwave (Africa)', link: '/plugins/payments-africa' },
+      { text: 'Xendit, PayMongo, Opn & KOMOJU (Asia)', link: '/plugins/payments-asia-pacific' },
+      { text: 'Tap & iyzico (Middle East, Türkiye)', link: '/plugins/payments-middle-east-turkey' },
     ],
   },
   {
     text: 'Sales',
     collapsed: true,
     items: [
+      {
+        text: 'Discounts',
+        link: '/plugins/discounts',
+        collapsed: true,
+        items: [
+          { text: 'Promo codes', link: '/plugins/promo-codes' },
+          { text: 'Group discounts', link: '/plugins/group-discounts' },
+          { text: 'Dynamic pricing', link: '/plugins/dynamic-pricing' },
+        ],
+      },
       { text: 'Add-ons & extras', link: '/plugins/add-ons-and-extras' },
-      { text: 'Group discounts', link: '/plugins/group-discounts' },
-      { text: 'Dynamic pricing', link: '/plugins/dynamic-pricing' },
-      { text: 'Hotel booking', link: '/plugins/hotel-booking' },
+      { text: 'Booking & traveller fees', link: '/plugins/booking-fees' },
+      { text: 'Gift vouchers', link: '/plugins/gift-vouchers' },
       { text: 'Waitlist', link: '/plugins/waitlist' },
+      { text: 'Hotel rooms', link: '/plugins/hotel-booking' },
+      { text: 'Travel insurance', link: '/plugins/travel-insurance' },
+      { text: 'Quotes & proposals', link: '/plugins/quotes' },
+      { text: 'Point of sale', link: '/plugins/point-of-sale' },
+      { text: 'Rentals, passes & memberships', link: '/plugins/rentals-and-passes' },
       { text: 'External booking links', link: '/plugins/external-booking-links' },
     ],
   },
@@ -40,8 +69,10 @@ const plugins: DefaultTheme.SidebarItem[] = [
     text: 'Marketing',
     collapsed: true,
     items: [
-      { text: 'Promo codes', link: '/plugins/promo-codes' },
+      { text: 'Email automations', link: '/plugins/automations' },
       { text: 'Abandoned checkout recovery', link: '/plugins/abandoned-checkout' },
+      { text: 'Email campaigns', link: '/plugins/campaigns' },
+      { text: 'Mailchimp & Brevo', link: '/plugins/mailchimp-brevo' },
       { text: 'Google Analytics 4', link: '/plugins/google-analytics' },
       { text: 'Meta Pixel', link: '/plugins/meta-pixel' },
     ],
@@ -51,24 +82,67 @@ const plugins: DefaultTheme.SidebarItem[] = [
     collapsed: true,
     items: [
       { text: 'QR tickets & check-in', link: '/plugins/qr-tickets' },
-      { text: 'Traveller details forms', link: '/plugins/traveller-forms' },
-      { text: 'Waivers & consent', link: '/plugins/waivers' },
+      { text: 'Resources & tasks', link: '/plugins/resources-and-scheduling' },
       { text: 'Tour guides', link: '/plugins/tour-guides' },
+      { text: 'Traveller details', link: '/plugins/traveller-forms' },
+      { text: 'Waivers & consent', link: '/plugins/waivers' },
+      { text: 'Suppliers & contracts', link: '/plugins/suppliers' },
+      { text: 'Trekking & expeditions', link: '/plugins/trekking' },
+      { text: 'Self-service changes', link: '/plugins/self-service-changes' },
     ],
   },
   {
-    text: 'Communication & integrations',
+    text: 'Accounting',
     collapsed: true,
     items: [
+      { text: 'Invoices & e-invoicing', link: '/plugins/invoices' },
+      { text: 'Costs & profit', link: '/plugins/costs-and-profit' },
+      { text: 'Xero, QuickBooks, Zoho, Sage, MYOB', link: '/plugins/accounting-sync' },
+    ],
+  },
+  {
+    text: 'Communication',
+    collapsed: true,
+    items: [
+      { text: 'Inbox', link: '/plugins/inbox' },
       { text: 'WhatsApp chat button', link: '/plugins/whatsapp-button' },
       { text: 'WhatsApp notifications', link: '/plugins/whatsapp-notifications' },
+      { text: 'SMS notifications', link: '/plugins/sms-notifications' },
       { text: 'Own email server (SMTP)', link: '/plugins/own-email-server' },
+    ],
+  },
+  {
+    text: 'Distribution',
+    collapsed: true,
+    items: [
+      { text: 'Channel manager (OTAs)', link: '/plugins/channel-manager' },
+      { text: 'Resellers & agents', link: '/plugins/agents' },
+      { text: 'Google Things to do', link: '/plugins/google-things-to-do' },
+    ],
+  },
+  {
+    text: 'Website',
+    collapsed: true,
+    items: [
+      { text: 'Currency switcher', link: '/plugins/currency-switcher' },
+      { text: 'AI assistant', link: '/plugins/ai-assistant' },
+      { text: 'White label', link: '/plugins/white-label' },
+    ],
+  },
+  {
+    text: 'Integrations',
+    collapsed: true,
+    items: [
+      { text: 'AI app connections (MCP)', link: '/plugins/mcp' },
+      { text: 'Public API', link: '/plugins/public-api' },
       { text: 'Webhooks', link: '/plugins/webhooks' },
     ],
   },
 ]
 
-const sidebar: DefaultTheme.Sidebar = [
+// Each area keeps its own sidebar, so a page's navigation stays short: the user guide, the plugin catalogue and the
+// developer reference. The top navigation links the three.
+const guide: DefaultTheme.SidebarItem[] = [
   {
     text: 'Get started',
     items: [
@@ -77,6 +151,8 @@ const sidebar: DefaultTheme.Sidebar = [
       { text: 'Your console', link: '/get-started/console-overview' },
       { text: 'Plans & billing', link: '/get-started/plans-and-billing' },
       { text: 'Move from WordPress', link: '/get-started/import-from-wordpress' },
+      { text: 'Move from another booking system', link: '/get-started/import-customers-and-bookings' },
+      { text: 'Saved list views', link: '/get-started/saved-list-views' },
     ],
   },
   {
@@ -88,6 +164,7 @@ const sidebar: DefaultTheme.Sidebar = [
       { text: 'Departures & availability', link: '/tours/departures-and-availability' },
       { text: 'Booking modes', link: '/tours/booking-modes' },
       { text: 'Destinations & categories', link: '/tours/destinations-and-categories' },
+      { text: 'Places', link: '/tours/places' },
       { text: 'Taxes', link: '/tours/taxes' },
       { text: 'Import a tour from a URL', link: '/tours/import-a-tour' },
     ],
@@ -100,6 +177,7 @@ const sidebar: DefaultTheme.Sidebar = [
       { text: 'Checkout experience', link: '/bookings/checkout' },
       { text: 'Payments', link: '/bookings/payments' },
       { text: 'Refunds & cancellations', link: '/bookings/refunds-and-cancellations' },
+      { text: 'Disputes, approvals, FX & TCS', link: '/bookings/finance-controls' },
       { text: 'Manifests & check-in', link: '/bookings/manifests-and-check-in' },
       { text: 'Enquiries', link: '/bookings/enquiries' },
       { text: 'Customers & traveller portal', link: '/bookings/customers' },
@@ -111,18 +189,29 @@ const sidebar: DefaultTheme.Sidebar = [
   {
     text: 'Website',
     items: [
-      { text: 'Themes & Theme Builder', link: '/website/theme-builder' },
       { text: 'Pages & blog', link: '/website/pages-and-blog' },
+      { text: 'Permalinks', link: '/website/permalinks' },
+      { text: 'Redirects', link: '/website/redirects' },
       { text: 'Media library', link: '/website/media-library' },
+      { text: 'Themes & Theme Builder', link: '/website/theme-builder' },
+      { text: 'Visual editor & widgets', link: '/website/page-builder' },
+      { text: 'Fonts', link: '/website/fonts' },
       { text: 'Menus', link: '/website/menus' },
       { text: 'Announcement bar', link: '/website/announcement-bar' },
+      { text: 'Website languages', link: '/website/languages' },
       { text: 'Custom domains', link: '/website/custom-domains' },
       { text: 'SEO', link: '/website/seo' },
-      { text: 'Redirects', link: '/website/redirects' },
+      { text: 'Traffic, logs & protection', link: '/website/traffic-and-protection' },
       { text: 'Cookie consent & tracking', link: '/website/cookie-consent-and-tracking' },
     ],
   },
-  { text: 'Plugins', items: plugins },
+  {
+    text: 'Plugins',
+    items: [
+      { text: 'Plugins overview', link: '/plugins/' },
+      { text: 'All payment providers', link: '/plugins/payment-providers' },
+    ],
+  },
   {
     text: 'Account & security',
     items: [
@@ -134,13 +223,7 @@ const sidebar: DefaultTheme.Sidebar = [
   },
   {
     text: 'Developers',
-    items: [
-      { text: 'Developer overview', link: '/developers/' },
-      { text: 'Webhooks reference', link: '/developers/webhooks' },
-      { text: 'Verify signatures', link: '/developers/verify-signatures' },
-      { text: 'Data model & money', link: '/developers/data-model' },
-      { text: 'REST API', link: '/developers/rest-api' },
-    ],
+    items: [{ text: 'Developer overview', link: '/developers/' }],
   },
   {
     text: 'Help',
@@ -153,6 +236,29 @@ const sidebar: DefaultTheme.Sidebar = [
     ],
   },
 ]
+
+const developers: DefaultTheme.SidebarItem[] = [
+  {
+    text: 'Developers',
+    items: [
+      { text: 'Developer overview', link: '/developers/' },
+      { text: 'REST API', link: '/developers/rest-api' },
+      { text: 'Webhooks reference', link: '/developers/webhooks' },
+      { text: 'Verify signatures', link: '/developers/verify-signatures' },
+      { text: 'Data model & money', link: '/developers/data-model' },
+    ],
+  },
+  { text: 'Back to the user guide', link: '/get-started/introduction' },
+]
+
+const sidebar: DefaultTheme.Sidebar = {
+  '/plugins/': [
+    { text: 'Plugins', items: plugins },
+    { text: 'Back to the user guide', link: '/get-started/introduction' },
+  ],
+  '/developers/': developers,
+  '/': guide,
+}
 
 /** After the build, publish every page as Markdown too (/path.md) plus llms.txt / llms-full.txt for AI assistants. */
 function publishMarkdown(config: SiteConfig) {
@@ -186,7 +292,7 @@ export default defineConfig({
   cleanUrls: true,
   lastUpdated: true,
   // Internal engineering notes live in this folder too; they are not part of the public docs.
-  srcExclude: ['[A-Z]*.md', 'research/**', 'node_modules/**'],
+  srcExclude: ['[A-Z]*.md', 'research/**', 'design/**', 'node_modules/**'],   // design/, research/: internal notes
   sitemap: { hostname: SITE },
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
@@ -236,7 +342,7 @@ export default defineConfig({
         items: [
           { text: 'Tours', link: '/tours/create-a-tour' },
           { text: 'Bookings & customers', link: '/bookings/bookings' },
-          { text: 'Website', link: '/website/theme-builder' },
+          { text: 'Website', link: '/website/pages-and-blog' },
           { text: 'Account & security', link: '/account/business-settings' },
         ],
       },

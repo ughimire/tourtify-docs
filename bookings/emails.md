@@ -8,7 +8,7 @@ description: The branded transactional emails Tourtify sends to travellers and y
 Tourtify sends branded emails at every step of a booking: confirmation, balance reminders, trip reminders, review requests and more. They carry your logo, brand colour and contact details, and travellers' replies go straight to your inbox. You can add your own message to each one and switch off the ones you don't need.
 
 ::: info Where to find it
-Console › Settings › Travellers › Emails
+Console › Settings › Notifications & messages › Emails
 :::
 
 ## The emails
@@ -44,7 +44,7 @@ Without a contact email, travellers' replies can't reach you. The Emails screen 
 
 ## Customise an email
 
-1. Go to **Settings › Emails** and choose **Edit** on an email.
+1. Go to **Settings › Notifications & messages › Emails** and choose **Edit** on an email.
 2. Under **Content**, write **Your message**: an optional line shown near the top, in your words, for example "Namaste! We can't wait to show you the mountains."
 3. Adjust the timing where offered:
    - Upcoming trip reminder: **Days before departure**
@@ -66,7 +66,7 @@ Choose **Turn off**. Nothing is sent for that email; nothing else changes. Choos
 
 On a booking, **More actions** offers **Send confirmation again** and **Send trip reminder now**. Every email sent is listed in the booking's activity.
 
-## Send from your own domain <Badge type="tip" text="Growth+" />
+## Send from your own domain
 
 By default, emails are sent by Tourtify on your behalf, with replies going to your contact email. To send through your own mail server, use the [Own email server](/plugins/own-email-server) plugin.
 

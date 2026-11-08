@@ -10,7 +10,7 @@ Webhooks send booking events to your other systems the moment they happen: your 
 ::: info At a glance
 - **Plan:** Scale
 - **Category:** Integrations
-- **Where:** Console › Plugins › Webhooks, and Settings › Team & tools › Webhooks
+- **Where:** Console › Plugins › Webhooks, and Settings › Integrations & developers › Webhooks
 :::
 
 This page covers setting up and running webhooks in the console. For headers, signature verification and payload formats, see the [Webhooks developer reference](/developers/webhooks).
@@ -30,7 +30,7 @@ You can have up to 10 endpoints. Each has its own events and its own signing sec
 1. Go to **Console › Plugins**.
 2. Find **Webhooks** and flip its switch on.
 3. Optionally select **Configure** and set where failure alerts go, then **Save**.
-4. Open **Settings › Team & tools › Webhooks** to add your first endpoint.
+4. Open **Settings › Integrations & developers › Webhooks** to add your first endpoint.
 
 ## Settings
 
@@ -40,7 +40,7 @@ You can have up to 10 endpoints. Each has its own events and its own signing sec
 
 ## Add an endpoint
 
-1. Go to **Settings › Team & tools › Webhooks** and select **Add endpoint**.
+1. Go to **Settings › Integrations & developers › Webhooks** and select **Add endpoint**.
 2. Enter the **URL**, e.g. a Zapier or Make "catch hook", or your own server. It must be a public `https://` address.
 3. Add a **Description**, e.g. "Zapier → HubSpot".
 4. Choose the **Events** to send (see below).
@@ -120,6 +120,6 @@ For 24 hours after a rotation, the old secret also signs each request, so receiv
 ## Related
 
 - [Webhooks developer reference](/developers/webhooks)
-- [Deposits & balance payments](./deposits)
+- [Deposits & instalments](./deposits)
 - [Instalment plans](./instalments)
 - [Payments](/bookings/payments)

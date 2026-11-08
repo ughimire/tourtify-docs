@@ -8,7 +8,7 @@ description: Manage enquiries, sold-out date requests, contact form messages and
 Enquiries is your leads inbox. Questions from tour pages, sold-out date requests, contact form messages and booking requests all land here. Answer fast: speed wins bookings.
 
 ::: info Where to find it
-Console › Enquiries
+Console › Sales › Enquiries
 :::
 
 The sidebar shows a badge with the number of new enquiries, and the dashboard lists "new enquiries to answer".

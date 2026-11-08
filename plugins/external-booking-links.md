@@ -10,7 +10,7 @@ External booking links are for trips you sell somewhere else: Viator, GetYourGui
 ::: info At a glance
 - **Plan:** Growth and Scale
 - **Category:** Sales
-- **Where:** Console › Plugins › External booking links, and Tours › External booking links
+- **Where:** Console › Plugins › External booking links, and Sales › Tours › External booking links
 :::
 
 ## How it works
@@ -27,7 +27,7 @@ On a tour option set to book elsewhere, the booking panel shows one button (by d
 
 **What your team sees**
 
-**Tours › External booking links** shows clicks per tour and per day for the last 7, 30 or 90 days. Bots and repeat clicks within a minute aren't counted.
+**Sales › Tours › External booking links** shows clicks per tour and per day for the last 7, 30 or 90 days. Bots and repeat clicks within a minute aren't counted.
 
 ## Turn it on
 
@@ -43,13 +43,13 @@ On a tour option set to book elsewhere, the booking panel shows one button (by d
 3. Paste the **Booking page link (https)**.
 4. Save the option.
 
-The tour now appears on **Tours › External booking links** with its clicks.
+The tour now appears on **Sales › Tours › External booking links** with its clicks.
 
 ## Give a departure its own link
 
 A partner may sell one date on a different page.
 
-1. Go to **Tours › External booking links**.
+1. Go to **Sales › Tours › External booking links**.
 2. Open **Departure links** for the tour.
 3. Paste a link next to any upcoming date. Leave a date blank to use the tour's link.
 4. Select **Save**.

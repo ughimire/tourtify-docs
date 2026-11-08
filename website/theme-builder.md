@@ -45,24 +45,24 @@ Activating a theme discards any unpublished changes in the Theme Builder. Publis
 
 ## Open the Theme Builder
 
-Choose **Customize** on the active theme, or go to **Website › Appearance › Customize**. The builder opens full screen with a settings panel on the left and a live preview on the right.
+Choose **Customize** on the active theme, or go to **Website › Appearance › Customize**. It opens the [visual editor](/website/page-builder) on **Site styles**: the same editor you use for the home page and every builder page, with the real website in the canvas.
 
-- Switch the preview between **desktop, tablet and mobile** and choose which **page** to preview.
-- Click any part of the preview to jump to its settings.
-- Use **Undo** (⌘Z / Ctrl+Z) and **Redo** (⇧⌘Z) freely.
+- Switch the canvas between **desktop, tablet and mobile**; use the title at the top to switch to the home page, another page, **Edit header** or **Edit footer**.
+- Click the header or footer on the canvas to open its builder; colours, fonts and shapes update the canvas instantly.
+- **Undo** (⌘Z / Ctrl+Z), **Redo** (⇧⌘Z) and **History** cover site styles and page content together.
 
-| Section | What you change |
+| Site styles | What you change |
 |---|---|
-| Start from a theme | Apply another theme's colours, fonts, shapes and layouts. Your content and blocks stay. |
-| Colours | Primary and accent colour (or **Use my brand colour**), page background, cards, text, header and footer colours. Dark themes are supported. |
-| Typography | Heading and body fonts from a curated list. |
+| Theme presets | Apply another theme's colours, fonts, shapes and layouts. Your content stays. |
+| Global colours | Primary and accent colour (or **Use my brand colour**), page background, cards, text, header and footer colours. Dark themes are supported. Elements set to a global colour follow it. |
+| Global fonts | Heading and body fonts from the font list or fonts you uploaded. How they load (hosted on Tourtify or from Google Fonts): see [Fonts](./fonts). |
 | Buttons & shapes | Corners (Square, Rounded, Pill) and button style (Solid, Outline). |
-| Header | Header builder (see below). |
-| Home page | Add, reorder, hide and edit home page blocks. |
 | Tour cards | Classic, Photo overlay or Minimal cards; show star rating, duration and difficulty, short summary. |
-| Footer | Footer builder (see below). |
+| Header / Footer | The header and footer builders (see below), docked under the canvas. |
+| Announcement bar | The message above the header (goes live when saved). |
 | Custom CSS | Advanced fine-tuning applied on top of the theme. |
-| History | Every published version, with preview and restore. |
+
+The home page is built with containers and widgets in the same editor (**Widgets** tab). **Publish** puts site styles and the home page live together; **History › Published versions** keeps every published version, with restore.
 
 ## Build your header
 
@@ -84,7 +84,7 @@ The footer has up to **three rows of one to four columns**. Drag widgets between
 
 Widgets: About, Logo, Menu, Contact, Social, Tours, Destinations, Activities, Categories, Review rating, Secure payments, Text, Button and Copyright (`© {year} {site}` is filled in for you).
 
-The About text and social links come from **Website › Appearance › Site details**; contact details come from **Settings › Business details**. "Secure booking powered by Tourtify" and the cookie settings link always show at the very bottom.
+The About text and social links come from **Website › Appearance › Site details**; contact details come from **Settings › Business › Business details**. "Secure booking powered by Tourtify" and the cookie settings link always show at the very bottom.
 
 ## Arrange home page blocks
 
@@ -109,6 +109,27 @@ Open **Home page**, then **Add a block**. Drag to reorder; click a block to edit
 | Featured testimonial | One big quote from a traveller |
 
 Every block also has **Block style**: background (page, subtle grey, card, brand, contrast or a custom colour, with text contrast handled for you), extra space, **Hide on phones**, **Hide on computers** and an **Anchor** so menus can link to `/#your-anchor`. Use the block menu to **Duplicate**, **Move up/down** or **Remove block**.
+
+## Design the tour page
+
+Every tour page uses one layout, which you design once in the same editor. Open it from Console › Website › Appearance › **Tour page**, or switch to it from the page menu at the top left of the editor. The canvas shows one of your own tours.
+
+The tour page is made of four parts. Each appears once:
+
+| Part | What it shows | Settings |
+|---|---|---|
+| Tour title | Name, rating, summary, labels and key facts | Look (automatic, plain band or over the cover photo), breadcrumb, key facts |
+| Tour photos | The tour's gallery (hidden when it has none) | Style, spacing, visibility per device |
+| Tour details & booking | Itinerary, inclusions, dates, FAQs and the rest, beside the booking panel | Booking panel on the right or left, section links bar |
+| Similar tours | Tours in the same destinations and activities | Heading and how many |
+
+You can do three things with this layout:
+
+- **Move the parts.** Put them in any order, or delete the ones you don't want, such as the photos or similar tours. **Tour details & booking** always stays, because without it nobody could book.
+- **Add any widget between them.** For example: trust badges under the title, a "Talk to a trip expert" call to action after the details, or a newsletter sign-up at the bottom.
+- **Keep each tour's own section order.** The order of a tour's sections (itinerary, inclusions, FAQs…) is still set on each tour, under its **SEO** tab › Page sections.
+
+The tour page is part of your theme. It saves as a draft with your other changes and goes live when you press **Publish**.
 
 ## Save, preview and publish
 

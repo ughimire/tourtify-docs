@@ -8,28 +8,32 @@ description: Write a day-by-day itinerary, highlights, inclusions, FAQs and trip
 The itinerary and content are what convince travellers to book. Tourtify gives you a structured editor for every part of the tour page, so it looks consistent, reads well on phones and is understood by search engines.
 
 ::: info Where to find it
-Console › Tours › *tour* › **Itinerary**, **Highlights & FAQs**, **Media** and **Policies** tabs
+Console › Sales › Tours › *tour* › **Itinerary**, **Highlights & FAQs**, **Media** and **Policies** tabs
 :::
 
-## Write the itinerary
+## Build the itinerary
 
-1. Open the tour and go to the **Itinerary** tab.
-2. Choose **Add day**.
-3. Fill in the day:
+The **Itinerary** tab shows the itinerary as travellers see it. Choose **Open builder** to plan it in the full-screen trip builder:
 
-| Field | Example |
+- **Left**: the outline of days (drag to reorder, nights and totals, a warning icon on days to check) and the **Library** of saved days and blocks.
+- **Centre**: the selected day as a timeline. Type in the bar under the timeline to add an item; start with **/** for a kind: `/drive Pokhara 5h`, `/flight KTM-LUA 06:30`, `/hotel Yak & Yeti`, `/lunch`. A time (09:30) and a length (2h, 45m) are picked up from what you type.
+- **Right**: **Details** of the selected day or item (places, times, distance, ascent, meals, hotel and board, included or optional extra, who sees it, photos), the **Map** and the **Checks**.
+
+| Item kinds | Activity, sightseeing, walk or trek, drive or transfer, flight, train, boat, accommodation, meal, free time, briefing, permit or fee, note |
 |---|---|
-| Title | Fly to Lukla, trek to Phakding |
-| Description | What happens that day |
-| Overnight | Teahouse in Phakding |
-| Meals included | Breakfast, lunch, dinner |
-| Max altitude (m) | 2,610 |
-| Distance (km) | 8 |
-| Walking (hours) | 3–4 |
+| Who sees it | Travellers (website and PDF), guides and team, or internal (team only) |
 
-4. Repeat for each day, then choose **Save itinerary**.
+Everything is saved as a draft as you work; the website keeps showing the published itinerary until you choose **Publish**. **Versions** keeps every published itinerary: compare one with what's live, or restore it into the draft.
 
-Use the day menu to **Move up**, **Move down**, **Duplicate** or **Delete** a day.
+**Checks** point out a tour length that doesn't match the number of days, nights without a place to sleep, a day that starts somewhere other than where you slept, more than 500 m of altitude gain a night above 3,000 m, overlapping times and long gaps, titles not yet translated, and (on a published tour) items without a photo. A day without a title must be fixed before publishing.
+
+**Library**: save a day (day menu › *Save day to library*) or a few items (*Save as block*), then drag it onto any tour's outline or timeline, or press **Insert**. Inserting makes a copy, so tours never change each other.
+
+**Options**: when a tour has several options (a 12- and a 14-day version), choose which options include a day in its details; the website then shows one itinerary per option. **Language**: pick a website language in the top bar to translate days and items in place.
+
+::: tip Keyboard
+J / K: next / previous day · / : add an item · ⌘D: duplicate · ⌫: delete the selected items · ⌥↑ / ⌥↓: move · ⌘Z / ⇧⌘Z: undo / redo · ⌘K: commands. Drag handles also work with the keyboard: Space to pick up, arrows to move, Space to drop.
+:::
 
 ::: tip Altitude profile
 When days have a max altitude, Tourtify draws an **Altitude profile** chart on the tour page automatically.

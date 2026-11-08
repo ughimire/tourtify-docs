@@ -10,7 +10,7 @@ QR tickets give every confirmed traveller a ticket with a QR code. At the meetin
 ::: info At a glance
 - **Plan:** All plans
 - **Category:** Operations
-- **Where:** Console › Plugins › QR tickets & check-in, and Bookings › Scan tickets
+- **Where:** Console › Plugins › QR tickets & check-in, and Operations › Scan tickets
 :::
 
 ## How it works
@@ -24,7 +24,7 @@ QR tickets give every confirmed traveller a ticket with a QR code. At the meetin
 
 **What your team sees**
 
-- **Bookings › Scan tickets** opens the scanner. It uses the phone's camera, or you can type the 8-character code.
+- **Operations › Scan tickets** opens the scanner. It uses the phone's camera, or you can type the 8-character code.
 - Each scan shows a clear result: green to go, amber to check something, red to stop.
 - The page shows how many travellers have been checked in today.
 
@@ -33,7 +33,7 @@ QR tickets give every confirmed traveller a ticket with a QR code. At the meetin
 1. Go to **Console › Plugins**.
 2. Find **QR tickets & check-in** and flip its switch on.
 3. Select **Configure** to review the settings, then **Save**.
-4. Open **Bookings › Scan tickets** on the phone you'll use at the meeting point.
+4. Open **Operations › Scan tickets** on the phone you'll use at the meeting point.
 
 From now on, every newly confirmed booking gets tickets.
 
@@ -49,7 +49,7 @@ From now on, every newly confirmed booking gets tickets.
 
 ## Scan a ticket
 
-1. Open **Bookings › Scan tickets**.
+1. Open **Operations › Scan tickets**.
 2. Select **Start camera** and allow camera access.
 3. Point the camera at the traveller's QR code. Or type the code into **Ticket code** and select **Check**.
 4. Read the result and act on it.
@@ -74,7 +74,7 @@ The camera scanner works in Chrome on Android and in most modern browsers. If th
 
 ## Permissions
 
-The **Scan tickets** menu item appears for team members allowed to check travellers in. Give guides and meeting-point staff this permission in **Settings › Team**.
+The **Scan tickets** menu item appears for team members allowed to check travellers in. Give guides and meeting-point staff this permission in **Settings › Team & access › Team**.
 
 ## Good to know
 
@@ -89,6 +89,6 @@ If you collect balances at the meeting point, leave **Let travellers with a bala
 ## Related
 
 - [Waivers & consent](./waivers)
-- [Deposits & balance payments](./deposits)
+- [Deposits & instalments](./deposits)
 - [Tour guides](./tour-guides)
 - [Payments](/bookings/payments)

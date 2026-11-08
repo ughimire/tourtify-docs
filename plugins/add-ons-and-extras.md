@@ -10,7 +10,7 @@ Add-ons & extras let travellers add things to their trip at checkout: airport tr
 ::: info At a glance
 - **Plan:** Growth and Scale
 - **Category:** Sales
-- **Where:** Console › Plugins › Add-ons & extras, and Tours › Add-ons & extras
+- **Where:** Console › Plugins › Add-ons & extras, and Sales › Tours › Add-ons & extras
 :::
 
 ## How it works
@@ -25,13 +25,13 @@ Add-ons & extras let travellers add things to their trip at checkout: airport tr
 
 **What your team sees**
 
-**Tours › Add-ons & extras** lists your extras with their sales, plus extras revenue, attach rate and best seller. The answer to an extra's question is saved on the booking, e.g. "Shoe size: 42".
+**Sales › Tours › Add-ons & extras** lists your extras with their sales, plus extras revenue, attach rate and best seller. The answer to an extra's question is saved on the booking, e.g. "Shoe size: 42".
 
 ## Turn it on
 
 1. Go to **Console › Plugins**.
 2. Find **Add-ons & extras** and flip its switch on.
-3. Open **Tours › Add-ons & extras** and select **Add extra**.
+3. Open **Sales › Tours › Add-ons & extras** and select **Add extra**.
 
 ## Settings
 
@@ -42,7 +42,7 @@ Add-ons & extras let travellers add things to their trip at checkout: airport tr
 
 ## Add an extra
 
-1. Go to **Tours › Add-ons & extras** and select **Add extra**.
+1. Go to **Sales › Tours › Add-ons & extras** and select **Add extra**.
 2. Choose the **Type**:
    - **Extra**: transfers, gear rental, meals, photos…
    - **Insurance**: shown first as "Protect your trip".
@@ -77,11 +77,11 @@ Changes apply to new bookings. Past bookings keep what they paid.
 
 - Daily stock is claimed when the traveller checks out, so two travellers can't take the last item at the same time.
 - Turning the plugin off removes extras from checkout. Your extras and past orders are kept.
-- For full hotel rooms with check-in dates and rooming lists, use [Hotel booking](./hotel-booking) instead of an upgrade.
+- For full hotel rooms with check-in dates and rooming lists, use [Hotel rooms](./hotel-booking) instead of an upgrade.
 
 ## Related
 
-- [Hotel booking](./hotel-booking)
+- [Hotel rooms](./hotel-booking)
 - [Group discounts](./group-discounts)
 - [Checkout](/bookings/checkout)
 - [Tour pricing](/tours/pricing)

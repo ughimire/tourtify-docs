@@ -1,16 +1,16 @@
 ---
-title: Traveller details forms
+title: Traveller details
 description: Collect passport, date of birth, dietary needs and emergency contacts per traveller after booking, with reminders, so checkout stays short.
 ---
 
-# Traveller details forms <Badge type="tip" text="Growth+" />
+# Traveller details <Badge type="tip" text="Growth+" />
 
-Traveller details forms collect everything you need for the trip after the booking is made: passport details, date of birth, dietary needs, emergency contacts and file uploads. Checkout stays short, and Tourtify chases missing details for you before departure.
+The Traveller details plugin collects everything you need for the trip after the booking is made: passport details, date of birth, dietary needs, emergency contacts and file uploads. Checkout stays short, and Tourtify chases missing details for you before departure.
 
 ::: info At a glance
 - **Plan:** Growth and Scale
 - **Category:** Operations
-- **Where:** Console › Plugins › Traveller details forms, and Settings › Travellers › Traveller details
+- **Where:** Console › Plugins › Traveller details, and Settings › Bookings & travellers › Traveller details
 - **Works with:** [Waivers & consent](./waivers), [WhatsApp notifications](./whatsapp-notifications)
 :::
 
@@ -32,13 +32,13 @@ Traveller details forms collect everything you need for the trip after the booki
 ## Turn it on
 
 1. Go to **Console › Plugins**.
-2. Find **Traveller details forms** and flip its switch on.
-3. Go to **Settings › Travellers › Traveller details** to build your form.
+2. Find **Traveller details** and flip its switch on.
+3. Go to **Settings › Bookings & travellers › Traveller details** to build your form.
 4. Select **Configure** on the plugin to set reminders and privacy, then **Save**.
 
 ## Build your form
 
-1. Go to **Settings › Travellers › Traveller details**.
+1. Go to **Settings › Bookings & travellers › Traveller details**.
 2. Select **Use suggested questions** to start from passport, date of birth, dietary needs and emergency contact. Or select **Add question** to build your own.
 3. For each question, set:
    - **Question** and **Answer type**: Short text, Long text, Choice list, Date, Date of birth, Passport expiry, Country, Email, Phone or File upload.
@@ -82,5 +82,5 @@ Passport scans are sensitive. Keep the retention period as short as your operati
 
 - [Waivers & consent](./waivers)
 - [WhatsApp notifications](./whatsapp-notifications)
-- [Hotel booking](./hotel-booking)
+- [Hotel rooms](./hotel-booking)
 - [Tour guides](./tour-guides)

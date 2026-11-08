@@ -7,13 +7,9 @@
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",
-    "preview": "vitepress preview",
-    "docs:build": "vitepress build"
+    "preview": "vitepress preview"
   },
   "devDependencies": {
     "vitepress": "1.6.4"
-  },
-  "engines": {
-    "node": ">=20"
   }
 }

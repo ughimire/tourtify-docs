@@ -3,14 +3,14 @@ title: Own email server (SMTP)
 description: Send booking emails from your own address through Google Workspace, Microsoft 365, Zoho, Postmark, SendGrid or Mailgun, with DNS checks and a log.
 ---
 
-# Own email server (SMTP) <Badge type="tip" text="Growth+" />
+# Own email server (SMTP) <Badge type="info" text="All plans" />
 
 Own email server sends your booking emails from your own address, like `bookings@yourbusiness.com`, through your email provider. Travellers see your domain, replies come straight to you, and deliverability improves when your domain is set up correctly. Tourtify checks your domain's SPF, DKIM and DMARC records and keeps a log of every email.
 
 ::: info At a glance
-- **Plan:** Growth and Scale
+- **Plan:** Starter, Growth and Scale
 - **Category:** Communication
-- **Where:** Console › Plugins › Own email server (SMTP), and Settings › Travellers › Own email server
+- **Where:** Console › Plugins › Own email server (SMTP), and Settings › Notifications & messages › Own email server
 :::
 
 ## How it works
@@ -27,7 +27,7 @@ Own email server sends your booking emails from your own address, like `bookings
 4. Choose **Send through**: an SMTP server, or the Postmark, SendGrid or Mailgun API.
 5. Fill in the server or API details (below) and select **Save**.
 6. Select **Run test** (**Send test email**). It goes through your own server only, with no fallback, so any error shows straight away.
-7. Open **Settings › Travellers › Own email server** to check your domain's DNS records.
+7. Open **Settings › Notifications & messages › Own email server** to check your domain's DNS records.
 
 ## Settings
 
@@ -64,7 +64,7 @@ Own email server sends your booking emails from your own address, like `bookings
 
 ## Check your domain's DNS
 
-Open **Settings › Travellers › Own email server**. The **Sender domain** section shows SPF, DKIM and DMARC for your sending domain:
+Open **Settings › Notifications & messages › Own email server**. The **Sender domain** section shows SPF, DKIM and DMARC for your sending domain:
 
 | Result | Meaning |
 |---|---|
@@ -95,4 +95,4 @@ Google Workspace and Microsoft 365 accounts with 2-step sign-in need an app pass
 ## Related
 
 - [WhatsApp notifications](./whatsapp-notifications)
-- [Traveller details forms](./traveller-forms)
+- [Traveller details](./traveller-forms)

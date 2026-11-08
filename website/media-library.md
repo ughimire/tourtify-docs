@@ -62,7 +62,7 @@ The top of the screen shows **Storage used** against your plan's allowance. By d
 | Growth | 20 GB |
 | Scale | 40 GB |
 
-When you reach the limit, new uploads are refused until you delete files or upgrade. See **Settings › Plan & usage**.
+When you reach the limit, new uploads are refused until you delete files or upgrade. See **Settings › Plan & billing › Plan & usage**.
 
 ## Related
 

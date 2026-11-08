@@ -10,7 +10,7 @@ Tour guides lets you keep guide profiles, assign guides to departures and show t
 ::: info At a glance
 - **Plan:** Growth and Scale
 - **Category:** Operations
-- **Where:** Console › Plugins › Tour guides, and Tour guides in the main sidebar
+- **Where:** Console › Plugins › Tour guides, and Operations › Tour guides
 :::
 
 ## How it works
@@ -54,6 +54,9 @@ On tour pages, a "Meet your guide" section with the assigned guide's name, photo
 | Email guide when a booking is confirmed | Sends the assigned guide a summary with the traveller count and booking details. | On |
 | Email guide when a booking is cancelled | Lets the guide know the group got smaller. | Off |
 | Guide notification intro text | Shown at the top of the notification email sent to guides. | "A new booking has been made for one of your tours. Here are the details:" |
+| Ask guides to accept each departure | When you assign a guide, they get an email to accept or decline from their schedule link. | On |
+| Remind guides who haven't answered after (hours) | One reminder to the guide; 0 turns reminders off. | 48 |
+| Then tell whoever assigned them after (hours) | If there's still no answer after the reminder, the person who assigned the guide (or the owners and admins) gets an email. Departures less than 2 days away are flagged straight away. | 24 |
 
 **Guide app**
 
@@ -78,6 +81,8 @@ On tour pages, a "Meet your guide" section with the assigned guide's name, photo
 3. Pick from **Suggested guides**. Suggestions are ranked by language, skill, availability and workload.
 4. Select **Assign guide**.
 
+The guide is emailed to **accept or decline** (from their schedule link). If they don't answer within 48 hours they get one reminder; if there's still no answer a day later, whoever assigned them is told, so there's time to call them or assign someone else. Answers show on **Assignments** (pending, accepted, declined); a decline emails the owners and admins.
+
 Tourtify stops you double-booking a guide who is on another departure at that time. Guides on time off aren't suggested. To use one anyway, tick **Assign during their time off** and select **Assign anyway**.
 
 ## Time off and certifications
@@ -88,6 +93,10 @@ Tourtify stops you double-booking a guide who is on another departure at that ti
 ## Schedule links
 
 Each guide's profile has a **Schedule link**. Use **Copy** to send it to them. If a link is shared by mistake, select **New link**: the old one stops working.
+
+## Guides who sign in
+
+A guide can also have a console login: invite them in **Settings › Team & access › Team** with the **Guide** role, then on their guide profile choose them under **Console login**. Signed in, they see only the departures they're assigned to (and haven't declined): their dashboard, departure list, manifests, check-in and ticket scanning for those departures, and the bookings on them, without customer lists or money, as for any guide. Pages that list every departure's travellers (reviews, waivers, waitlist, other guides' assignments) are not shown. Owners and admins are never limited by this, and a guide login without a linked profile keeps the guide role's usual read-only view.
 
 ## Payouts
 
@@ -102,4 +111,4 @@ Each guide's profile has a **Schedule link**. Use **Copy** to send it to them. I
 
 - [Waivers & consent](./waivers)
 - [QR tickets & check-in](./qr-tickets)
-- [Traveller details forms](./traveller-forms)
+- [Traveller details](./traveller-forms)

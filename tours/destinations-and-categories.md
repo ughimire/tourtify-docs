@@ -8,9 +8,9 @@ description: Organise Tourtify tours by destination, activity and category, with
 Destinations, activities and categories organise your tours the way travellers search: where (Nepal › Everest Region), what (Trekking) and what kind of trip (Small group, Private). Each one gets its own landing page on your website, appears in search filters and can be linked from menus and home page blocks.
 
 ::: info Where to find it
-Console › Tours › Destinations
-Console › Tours › Activities
-Console › Tours › Categories
+Console › Sales › Tours › Destinations
+Console › Sales › Tours › Activities
+Console › Sales › Tours › Categories
 :::
 
 ## The three types
@@ -25,7 +25,7 @@ Destinations and categories can be **nested**: Everest Region inside Nepal. A pa
 
 ## Add a destination, activity or category
 
-1. Go to **Tours › Destinations** (or Activities, Categories) and choose **New**.
+1. Go to **Sales › Tours › Destinations** (or Activities, Categories) and choose **New**.
 2. Fill in the form:
 
 | Field | Notes |

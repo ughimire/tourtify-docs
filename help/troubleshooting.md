@@ -21,15 +21,15 @@ Start with the symptom you see. If nothing here helps, [contact support](./suppo
 
 ## Payments fail or the Pay button is missing
 
-- Open **Settings › Business › Payments** and check Stripe (or your other gateway) shows as connected and able to take charges. Stripe sometimes asks for extra details; finish them in Stripe.
-- For PayPal and Razorpay, check the API keys and that the webhook from the plugin page is added in the provider's dashboard.
+- Open **Settings › Payments & tax › Payments** and check Stripe (or your other gateway) shows as connected and able to take charges. Stripe sometimes asks for extra details; finish them in Stripe.
+- For PayPal and regional providers, check the API keys and that the webhook address shown in Settings › Payments & tax › Payments is added in the provider’s dashboard.
 - If a payment needs review, the booking shows a warning on the dashboard; follow the steps on the booking.
 
 ## Travellers don't receive emails
 
 - Ask them to check spam and promotions folders.
 - Check the email address on the booking. You can **resend** any email from the booking page.
-- If you use [your own email server](/plugins/own-email-server), run the DNS check and look at the email log on **Settings › Travellers › Own email server**.
+- If you use [your own email server](/plugins/own-email-server), run the DNS check and look at the email log on **Settings › Notifications & messages › Own email server**.
 
 ## My domain won't connect
 

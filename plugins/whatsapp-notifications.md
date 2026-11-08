@@ -5,12 +5,14 @@ description: Send booking confirmations, trip and pickup reminders, balance remi
 
 # WhatsApp notifications <Badge type="tip" text="Growth+" />
 
-WhatsApp notifications send booking messages to travellers on WhatsApp, from your own WhatsApp Business number. Travellers read WhatsApp far more reliably than email, especially on the road. Send confirmations, trip and pickup reminders with a map pin, balance and traveller-details reminders, waitlist offers and review requests.
+WhatsApp notifications send booking messages to travellers on WhatsApp, from your own WhatsApp Business number. Many travellers check WhatsApp more often than email while they are on the road. Send confirmations, trip and pickup reminders with a map pin, balance and traveller-details reminders, waitlist offers and review requests.
+
+Notifications are the Growth part of the **WhatsApp** plugin, next to the [chat button](./whatsapp-button). Replies from travellers reach your [Inbox](./inbox) when it is on.
 
 ::: info At a glance
 - **Plan:** Growth and Scale
 - **Category:** Communication
-- **Where:** Console › Plugins › WhatsApp notifications, and Settings › Travellers › WhatsApp
+- **Where:** Console › Plugins › WhatsApp, and Settings › Notifications & messages › WhatsApp
 :::
 
 ## How it works
@@ -38,7 +40,7 @@ Instalment reminders use the balance reminder template, with the instalment's am
 
 **What your team sees**
 
-**Settings › Travellers › WhatsApp** shows the connection, each template's approval status, pickup points per tour and a message log (sent, failed, skipped, emailed instead).
+**Settings › Notifications & messages › WhatsApp** shows the connection, each template's approval status, pickup points per tour and a message log (sent, failed, skipped, emailed instead).
 
 ## What you need
 
@@ -51,11 +53,11 @@ Setup takes about 15 minutes.
 ## Turn it on
 
 1. Go to **Console › Plugins**.
-2. Find **WhatsApp notifications** and flip its switch on. The settings drawer opens.
+2. Find **WhatsApp** and flip its switch on. The settings drawer opens. Under **What’s included**, make sure **Notifications & templates** is switched on (it needs the Growth plan).
 3. Under **Connection**, enter the **Phone number ID**, **WhatsApp Business Account ID** and **Access token**.
 4. Under **Messages**, choose the **Messages to send**.
 5. Select **Save**, then **Run test** (**Test connection**) to check your phone number ID and token with WhatsApp.
-6. Open **Settings › Travellers › WhatsApp**. Create each template in WhatsApp Manager with the exact name shown, then select **Check status**.
+6. Open **Settings › Notifications & messages › WhatsApp**. Create each template in WhatsApp Manager with the exact name shown, then select **Check status**.
 7. Select **Send test** to send yourself the "Booking confirmed" template with sample details.
 
 ## Settings
@@ -91,7 +93,7 @@ One field per message, with the template name in WhatsApp Manager. The defaults 
 
 ## Set pickup points per tour
 
-1. Open **Settings › Travellers › WhatsApp** and find **Pickup points**.
+1. Open **Settings › Notifications & messages › WhatsApp** and find **Pickup points**.
 2. Select **Edit** next to a tour.
 3. Enter the pickup place, address, latitude and longitude, and the pickup time if it differs from the departure time.
 4. Select **Save**.
@@ -116,12 +118,12 @@ Tourtify sends WhatsApp messages only to travellers who ticked the box at checko
 ## Good to know
 
 - Messages are sent through Meta's WhatsApp Cloud API, directly from your own number.
-- With [Traveller details forms](./traveller-forms) reminders on, travellers with WhatsApp also get a WhatsApp reminder.
+- With [Traveller details](./traveller-forms) reminders on, travellers with WhatsApp also get a WhatsApp reminder.
 - Turning the plugin off stops WhatsApp messages. Your settings and message log are kept.
 
 ## Related
 
 - [WhatsApp chat button](./whatsapp-button)
 - [Waitlist](./waitlist)
-- [Traveller details forms](./traveller-forms)
-- [Deposits & balance payments](./deposits)
+- [Traveller details](./traveller-forms)
+- [Deposits & instalments](./deposits)

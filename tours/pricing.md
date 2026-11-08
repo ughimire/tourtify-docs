@@ -8,7 +8,7 @@ description: Set tour prices in Tourtify with options, traveller types such as a
 Tourtify prices are built from **options** and **traveller types**. An option is a way to do the tour (for example "Shared group" or "Private tour"); traveller types are who's travelling (Adult, Child, Infant). Each traveller type has a price, and can have cheaper prices for bigger groups. The price travellers see on your website is always the price they pay.
 
 ::: info Where to find it
-Console › Tours › *tour* › **Pricing & options** tab
+Console › Sales › Tours › *tour* › **Pricing & options** tab
 :::
 
 ## Add an option

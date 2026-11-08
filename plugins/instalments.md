@@ -7,11 +7,13 @@ description: Let travellers pay the balance after their deposit in equal schedul
 
 Instalment plans split the balance left after a deposit into equal scheduled payments. Travellers can commit to an expensive trip without paying one large balance, and you get paid on a predictable schedule. Reminders, pay links and automatic card charges are handled for you.
 
+Instalment plans are part of the [Deposits & instalments](./deposits) plugin, on the Growth and Scale plans.
+
 ::: info At a glance
 - **Plan:** Growth and Scale
 - **Category:** Payments
-- **Where:** Console › Plugins › Instalment plans, and Bookings › Balances
-- **Requires:** [Deposits & balance payments](./deposits)
+- **Where:** Console › Plugins › Deposits & instalments, and Finance › Payments › Balances
+- **Part of:** the [Deposits & instalments](./deposits) plugin
 :::
 
 ## How it works
@@ -23,16 +25,16 @@ Instalment plans split the balance left after a deposit into equal scheduled pay
 - With [automatic charges](./deposits#settings) on and a card on file, each instalment is charged on its due date. The traveller gets a heads-up email before each charge, and reminders only if a charge fails.
 - Otherwise the traveller gets reminders with a secure pay link before and on each due date.
 
-**Your team** sees each payment plan on **Bookings › Balances**, with the next payment and anything overdue.
+**Your team** sees each payment plan on **Finance › Payments › Balances**, with the next payment and anything overdue.
 
 ## Turn it on
 
-1. Make sure [Deposits & balance payments](./deposits) is on.
-2. Go to **Console › Plugins**.
-3. Find **Instalment plans** and flip its switch on.
-4. Select **Configure** to set the schedule and reminders, then **Save**.
+Instalment plans are part of the **Deposits & instalments** plugin.
 
-If Deposits is off, you see "Enable Deposits & balance payments first."
+1. Go to **Console › Plugins**.
+2. Find **Deposits & instalments** and flip its switch on.
+3. Select **Configure**. Under **What’s included**, make sure **Instalment plans** is switched on (it needs the Growth plan).
+4. Set the schedule under **Instalment schedule** and the reminders under **Instalment reminders**, then **Save**.
 
 ## Settings
 
@@ -53,7 +55,7 @@ If Deposits is off, you see "Enable Deposits & balance payments first."
 | Remind the traveller | Any of: 7 days before, 3 days before, on the due date, 2 days after (overdue). Each reminder has a secure pay link. | All four |
 | Alert my team when a payment is late by (days) | Emails owners and admins once per instalment. 0 = no alert. 0–60. | 3 |
 
-What happens after the grace period (flag or cancel) is set in [Deposits & balance payments](./deposits#settings).
+What happens after the grace period (flag or cancel) is set in [Deposits & instalments](./deposits#settings).
 
 ## Example
 
@@ -71,7 +73,7 @@ If a whole group books the same departure at different times, choose **Counted b
 
 ## Related
 
-- [Deposits & balance payments](./deposits)
+- [Deposits & instalments](./deposits)
 - [WhatsApp notifications](./whatsapp-notifications)
 - [Webhooks](./webhooks)
 - [Payments](/bookings/payments)

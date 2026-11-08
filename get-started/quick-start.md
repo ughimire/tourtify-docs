@@ -14,11 +14,10 @@ Have these ready: your business name, a logo (PNG or SVG), one tour with a few p
 ## 1. Create your account and business
 
 1. Go to [app.tourtify.com/register](https://app.tourtify.com/register) and create an account. Confirm your email address.
-2. On **Set up your business**, enter:
-   - **Business name**, for example *Himalayan Trails*.
-   - **Website address**: your free address, `himalayan-trails.tourtify.site`. You can add your own domain later.
-   - **Currency**: the currency you set prices in. You can sell in more currencies later with the [Currency switcher](/plugins/currency-switcher).
-   - **Time zone**: used for departure times, emails and reports.
+2. **Set up your business** takes three quick steps:
+   - **Your business**: **Business name** (for example *Himalayan Trails*), **Website address** (your free address, `himalayan-trails.tourtify.site`; you can add your own domain later) and **Where is your business based?**. Tourtify suggests your currency, time zone, date format, tax and privacy settings for that country.
+   - **Prices & time**: **Currency** (the currency you set prices in; you can sell in more currencies later with the [Currency switcher](/plugins/currency-switcher)), **Time zone** (used for departure times, emails and reports), **Website language**, dates and units, and your tax.
+   - **Review**: check the summary. You can change all of this later in **Settings › Business › Region**.
 3. Select **Create business**. Your 30-day free trial starts now; no card is needed.
 
 ## 2. Add your brand
@@ -27,7 +26,7 @@ Open **Settings › Business › Business details** and upload your logo, choose
 
 ## 3. Create your first tour
 
-1. Go to **Tours › All tours** and select **New tour**.
+1. Go to **Sales › Tours › All tours** and select **New tour**.
 2. Enter the name, type and where it happens, then fill in the overview, highlights, itinerary, what's included and photos.
 3. Save as a draft while you work.
 
@@ -43,7 +42,7 @@ Tell Tourtify when the tour runs and how many seats each departure has. Set a bo
 
 ## 6. Connect payments
 
-Open **Settings › Business › Payments** and select **Connect Stripe**. Stripe asks a few questions about your business and bank account, then card payments go straight to you. You can also enable PayPal, Razorpay or Khalti, or take bookings without online payment. See [Payments](/bookings/payments).
+Open **Settings › Payments & tax › Payments** and select **Connect Stripe**. Stripe asks a few questions about your business and bank account, then card payments go straight to you. You can also connect PayPal or a [local payment provider](/plugins/payment-providers), offer [pay by bank transfer](/plugins/bank-transfer), or take bookings without online payment. See [Payments](/bookings/payments).
 
 ::: tip Test before you go live
 Make a booking on your own website using Stripe's test mode, or create a [manual booking](/bookings/manual-bookings) to see the emails your travellers receive.
@@ -58,7 +57,8 @@ Set the tour's status to **Published**. It now appears on your website, in your 
 - Pick a theme and adjust your home page in **Website › Appearance › Customize**. See [Themes & Theme Builder](/website/theme-builder).
 - [Connect your own domain](/website/custom-domains) such as `www.himalayantrails.com`.
 - [Invite your team](/account/team-and-roles) so staff and guides have their own login.
-- Switch on the [plugins](/plugins/) you need, such as deposits or promo codes.
+- Add [website languages](/website/languages) if your travellers speak other languages.
+- Switch on the [plugins](/plugins/) you need, such as deposits or discounts.
 
 ## 9. Share your booking site
 
@@ -66,4 +66,4 @@ Add your booking link to your social profiles, Google Business Profile and email
 
 ## What happens when the trial ends
 
-Choose a plan from **Settings › Business › Plan & usage** at any time. If the trial ends without a plan, online booking pauses, but your website content, tours, bookings and customers are kept safe. Pick a plan and bookings resume immediately. See [Plans & billing](./plans-and-billing).
+Choose a plan from **Settings › Plan & billing › Plan & usage** at any time. If the trial ends without a plan, online booking pauses, but your website content, tours, bookings and customers are kept safe. Pick a plan and bookings resume immediately. See [Plans & billing](./plans-and-billing).

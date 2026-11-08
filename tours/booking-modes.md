@@ -8,7 +8,7 @@ description: Choose how travellers book each Tourtify tour option, with instant 
 Each tour option has a booking mode that decides what travellers can do on your website: book and pay straight away, request a booking for you to confirm, or only send an enquiry. Use different modes for different options, for example instant booking for the shared group and request to book for private trips.
 
 ::: info Where to find it
-Console › Tours › *tour* › **Pricing & options** › *option* › **How travellers book**
+Console › Sales › Tours › *tour* › **Pricing & options** › *option* › **How travellers book**
 :::
 
 ## The modes

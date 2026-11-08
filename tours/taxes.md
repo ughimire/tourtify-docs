@@ -8,12 +8,12 @@ description: Add VAT, GST or sales tax to Tourtify bookings, included in your pr
 If you charge VAT, GST or sales tax, add it once and Tourtify applies it to every booking. Each tax is either included in your prices or added on top. Either way, your website advertises the price the traveller will actually pay, and receipts show the tax.
 
 ::: info Where to find it
-Console › Settings › Business › Taxes
+Console › Settings › Payments & tax › Taxes
 :::
 
 ## Add a tax
 
-1. Go to **Settings › Taxes** and choose **Add a tax**.
+1. Go to **Settings › Payments & tax › Taxes** and choose **Add a tax**.
 2. Enter a **Name**, e.g. "VAT".
 3. Enter the **Rate** in percent, e.g. 13.
 4. Tick **Already included in my prices** if your tour prices already contain the tax.

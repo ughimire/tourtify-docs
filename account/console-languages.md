@@ -1,11 +1,11 @@
 ---
 title: Console languages
-description: Use the Tourtify console in English, Spanish, French, German, Nepali, Hindi, Arabic or Hebrew, with full right-to-left layout for Arabic and Hebrew.
+description: Use the Tourtify console in 15 languages, including Portuguese (Brazil and Portugal), Italian, Dutch, Japanese, Chinese and Korean, with full right-to-left layout for Arabic and Hebrew.
 ---
 
 # Console languages
 
-You can use the Tourtify console in eight languages. Each person picks their own; your team keeps theirs, and your website's languages don't change. Arabic and Hebrew switch the whole console to a right-to-left layout.
+You can use the Tourtify console in fifteen languages. Each person picks their own; your team keeps theirs, and your website's languages don't change (those are set in [Website languages](/website/languages)). Arabic and Hebrew switch the whole console to a right-to-left layout.
 
 ::: info Where to find it
 Console › Settings › Your account › Display › **Console language**
@@ -19,6 +19,13 @@ Console › Settings › Your account › Display › **Console language**
 | Spanish | Español | Left to right |
 | French | Français | Left to right |
 | German | Deutsch | Left to right |
+| Italian | Italiano | Left to right |
+| Dutch | Nederlands | Left to right |
+| Portuguese (Brazil) | Português (Brasil) | Left to right |
+| Portuguese (Portugal) | Português (Portugal) | Left to right |
+| Japanese | 日本語 | Left to right |
+| Chinese (Simplified) | 简体中文 | Left to right |
+| Korean | 한국어 | Left to right |
 | Nepali | नेपाली | Left to right |
 | Hindi | हिन्दी | Left to right |
 | Arabic | العربية | Right to left (RTL) |
@@ -26,7 +33,7 @@ Console › Settings › Your account › Display › **Console language**
 
 ## Change your language
 
-1. Go to **Settings › Display**.
+1. Go to **Settings › Your account › Display**.
 2. Under **Console language**, choose a language.
 
 The console switches straight away. Your choice is saved to your account and follows you to any device.
@@ -34,7 +41,7 @@ The console switches straight away. Your choice is saved to your account and fol
 ## How the language is chosen
 
 1. The language you picked in **Display**.
-2. If you haven't picked one, your browser's first supported language.
+2. If you haven't picked one, your browser's first supported language. A browser set to Portuguese from Brazil gets Portuguese (Brazil), from Portugal Portuguese (Portugal); Chinese from mainland China or Singapore gets Simplified Chinese.
 3. Otherwise, English.
 
 ## Right-to-left layout
@@ -49,8 +56,8 @@ A few newer screens may still show some English while translations catch up. Eve
 
 | Not affected | Why |
 |---|---|
-| Your website | Its content is in the language you write it in |
-| Emails to travellers | They use your own wording and business details |
+| Your website | Its languages are set separately in [Website languages](/website/languages) |
+| Emails to travellers | They go out in the language the traveller booked in |
 | Your teammates | Each person chooses their own language |
 
 ## Display theme
@@ -59,6 +66,7 @@ On the same screen, **Theme** sets light or dark mode for the console. **System*
 
 ## Related
 
+- [Website languages](/website/languages)
 - [Two-step sign-in](/account/two-step-sign-in)
 - [Team and roles](/account/team-and-roles)
 - [Business settings](/account/business-settings)

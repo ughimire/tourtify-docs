@@ -1,16 +1,16 @@
 ---
-title: Deposits & balance payments
+title: Deposits & instalments
 description: Take a deposit at booking and collect the balance later with automatic card charges, reminders, retries and personal payment links.
 ---
 
-# Deposits & balance payments <Badge type="info" text="All plans" />
+# Deposits & instalments <Badge type="info" text="All plans" />
 
 Deposits let travellers reserve a place with part of the price and pay the rest before the trip. Longer and more expensive trips sell better when travellers don't have to pay everything up front. Tourtify then collects the balance for you: by charging a saved card on the due date, or by emailing a secure payment link.
 
 ::: info At a glance
 - **Plan:** All plans
 - **Category:** Payments
-- **Where:** Console › Plugins › Deposits & balance payments, and Bookings › Balances
+- **Where:** Console › Plugins › Deposits & instalments, and Finance › Payments › Balances
 - **Used by:** [Instalment plans](./instalments)
 :::
 
@@ -25,12 +25,12 @@ The checkout tells them whether the deposit is refundable. If automatic charges 
 
 **After booking**, the booking shows as deposit paid with a balance due. On the due date Tourtify either charges the saved card, or emails the traveller a reminder with a secure pay link. Bookings made close to departure skip the deposit and pay in full.
 
-**Your team** sees every open balance on **Bookings › Balances**: what's due next, the card on file, and any charges that need a follow-up.
+**Your team** sees every open balance on **Finance › Payments › Balances**: what's due next, the card on file, and any charges that need a follow-up.
 
 ## Turn it on
 
 1. Go to **Console › Plugins**.
-2. Find **Deposits & balance payments** and flip its switch on.
+2. Find **Deposits & instalments** and flip its switch on.
 3. Select **Configure** to set your deposit rules and how balances are collected, then **Save**.
 4. Set a deposit on each tour option. In the tour editor, open **Pricing & options**, then choose a **Deposit** type and **Balance due (days before)**.
 
@@ -69,7 +69,7 @@ The drawer also shows whether your payment accounts support saved cards, how man
 
 ## Manage balances
 
-Open **Bookings › Balances** to see every booking with money still to come.
+Open **Finance › Payments › Balances** to see every booking with money still to come.
 
 - **Upcoming** lists balances by due date. **Due soon** covers the next 14 days.
 - **Needs attention** shows overdue balances and failed charges.

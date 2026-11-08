@@ -8,7 +8,7 @@ description: Create a draft Tourtify tour from any tour page on the web, with AI
 Already have your tours on another website? Paste the link to a tour page and Tourtify creates a draft tour for you: name, description, photo, itinerary, highlights, inclusions and FAQs. You review it, add dates and publish. Nothing goes live until you say so.
 
 ::: info Where to find it
-Console › Tours › All tours › **Import** (Import a tour from a website)
+Console › Sales › Tours › All tours › **Import** (Import a tour from a website)
 :::
 
 ## Import from a link
@@ -48,10 +48,10 @@ If the old page is on your previous website, add a [redirect](/website/redirects
 
 ## Import a whole WordPress site
 
-Moving from WordPress or WP Travel Engine? Use **Settings › Team & tools › Import** instead:
+Moving from WordPress or WP Travel Engine? Use **Settings › Integrations & developers › Import** instead:
 
 1. In WordPress, go to **Tools › Export**, choose **All content** and download the file.
-2. In Tourtify, go to **Settings › Import** and upload the `.xml` file (up to 50 MB).
+2. In Tourtify, go to **Settings › Integrations & developers › Import** and upload the `.xml` file (up to 50 MB).
 3. Review what Tourtify found, then import.
 
 WP Travel Engine trips become draft tours (overview, itinerary, includes and excludes, FAQs, highlights, duration, price); destinations, activities and trip types, pages and posts are imported; images are copied to your media library; and old WordPress addresses redirect automatically. Nothing is imported until you've seen what's inside.

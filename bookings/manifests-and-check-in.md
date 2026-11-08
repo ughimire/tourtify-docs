@@ -8,13 +8,13 @@ description: Use Tourtify departure manifests to see who is travelling, collect 
 A manifest is the passenger list for one departure: every booking and traveller, what's still to pay, dietary and emergency details, waivers and who has arrived. Guides use it on the day to check people in from a phone.
 
 ::: info Where to find it
-Console › Bookings › Departures › *departure* › **Open manifest**
+Console › Operations › Departures › *departure* › **Open manifest**
 Also: a tour's **Departures** tab › **Passenger manifest**, or **Departure manifest** on a booking
 :::
 
 ## Open a manifest
 
-1. Go to **Bookings › Departures**.
+1. Go to **Operations › Departures**.
 2. Find the departure (list or calendar) and choose **Open manifest** from its actions.
 
 ## What the manifest shows
@@ -53,7 +53,7 @@ Choose **Signing kiosk** to open a page for a tablet at the meeting point. Trave
 
 ## QR tickets <Badge type="tip" text="Plugin" />
 
-With the [QR tickets](/plugins/qr-tickets) plugin, each booking gets a QR ticket, and your team can check travellers in by scanning it at **Bookings › Scan tickets**.
+With the [QR tickets](/plugins/qr-tickets) plugin, each booking gets a QR ticket, and your team can check travellers in by scanning it at **Operations › Scan tickets**.
 
 ## Who can check in
 

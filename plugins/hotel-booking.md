@@ -1,16 +1,16 @@
 ---
-title: Hotel booking
+title: Hotel rooms
 description: Add hotel rooms to tour packages so travellers book accommodation and the tour in one checkout, with single supplements, extra nights and rooming lists.
 ---
 
-# Hotel booking <Badge type="tip" text="Growth+" />
+# Hotel rooms <Badge type="tip" text="Growth+" />
 
-Hotel booking adds hotel rooms to your tour packages. Travellers book accommodation and the tour in one checkout, choose a room type, and add extra nights before or after the trip. You get reservations per departure and rooming lists to send to each hotel.
+The Hotel rooms plugin adds hotel rooms to your tour packages. Travellers book accommodation and the tour in one checkout, choose a room type, and add extra nights before or after the trip. You get reservations per departure and rooming lists to send to each hotel.
 
 ::: info At a glance
 - **Plan:** Growth and Scale
 - **Category:** Sales
-- **Where:** Console › Plugins › Hotel booking, and Bookings › Hotel booking
+- **Where:** Console › Plugins › Hotel rooms, and Sales › Tours › Hotel rooms
 :::
 
 ## How it works
@@ -24,7 +24,7 @@ Hotel booking adds hotel rooms to your tour packages. Travellers book accommodat
 
 **What your team sees**
 
-- **Bookings › Hotel booking** lists your room types per tour option, with rooms on sale and booked.
+- **Sales › Tours › Hotel rooms** lists your room types per tour option, with rooms on sale and booked.
 - **Reservations** lists each guest's room and stay, with its status: **Reserved**, **Sent to hotel**, **Confirmed by hotel** or **Cancelled**.
 - **Rooming lists** per departure, ready to download or email to each hotel.
 
@@ -33,9 +33,9 @@ Rooms are held at checkout and released if the booking is cancelled or the check
 ## Turn it on
 
 1. Go to **Console › Plugins**.
-2. Find **Hotel booking** and flip its switch on.
+2. Find **Hotel rooms** and flip its switch on.
 3. Select **Configure** to set check-in times, your hotel policy and where summaries go, then **Save**.
-4. Open **Bookings › Hotel booking** and select **Add room type**.
+4. Open **Sales › Tours › Hotel rooms** and select **Add room type**.
 
 ## Settings
 
@@ -63,7 +63,7 @@ Rooms are held at checkout and released if the booking is cancelled or the check
 
 Room types belong to one tour option.
 
-1. Go to **Bookings › Hotel booking** and select **Add room type**.
+1. Go to **Sales › Tours › Hotel rooms** and select **Add room type**.
 2. Choose the **Tour option**.
 3. Enter the **Room name**, e.g. "Standard Twin" or "Deluxe Double", and the **Room type**: Single, Twin, Double, Triple or Family. **Sleeps** fills in automatically; change it if needed.
 4. Set the **Price** and whether the **Price is** **Per room** or **Per person sharing**.
@@ -78,7 +78,7 @@ A group gets as many rooms as it needs, based on how many guests each room sleep
 
 ## Send a rooming list
 
-1. Open **Bookings › Hotel booking › Reservations**.
+1. Open **Sales › Tours › Hotel rooms › Reservations**.
 2. Under **Rooming lists**, find the departure.
 3. Select **CSV** to download it, or **Email to hotel** to send each hotel its part.
 
@@ -101,6 +101,6 @@ When a hotel confirms, select **Add hotel ref** on the reservation and enter the
 ## Related
 
 - [Add-ons & extras](./add-ons-and-extras)
-- [Traveller details forms](./traveller-forms)
+- [Traveller details](./traveller-forms)
 - [Checkout](/bookings/checkout)
 - [Tour pricing](/tours/pricing)

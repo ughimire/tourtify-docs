@@ -8,7 +8,7 @@ description: Find, filter and manage every booking in Tourtify, understand booki
 Every booking lands in one list, whether it came from your website, was added by your team, or arrived through another channel. The list is organised around what you need to do: trips coming up, money to collect and payments to check.
 
 ::: info Where to find it
-Console › Bookings › All bookings
+Console › Sales › Bookings › All bookings
 :::
 
 ## Find a booking

@@ -25,10 +25,13 @@ Yes. Upgrades apply immediately; downgrades apply from your next billing period.
 ## Payments
 
 ### Who holds the money?
-You do. Payments go straight into your own Stripe, PayPal, Razorpay or Khalti account. Tourtify never holds your funds, so there are no payout delays from us.
+You do. Payments go straight into your own Stripe, PayPal or regional provider account (see [Payment providers](/plugins/payment-providers)). Tourtify never holds your funds, so there are no payout delays from us.
 
 ### Can I take deposits?
 Yes, on every plan, with automatic balance charges and reminders. See [Deposits](/plugins/deposits). On Growth you can also split the balance into [instalments](/plugins/instalments).
+
+### Can I try a deposit booking before going live?
+Yes. Connect your payment provider with test keys and run one booking from deposit to cancellation and refund. See [Test a deposit booking](/help/test-a-deposit-booking).
 
 ### Can I take bookings without online payment?
 Yes. Record cash or bank transfer payments on any booking, create [manual bookings](/bookings/manual-bookings), or set a tour to request-to-book or enquiry-only. See [Booking modes](/tours/booking-modes).
@@ -54,6 +57,9 @@ Yes. The importer brings WP Travel Engine trips, pages, posts and images with 30
 
 ### Who owns my data?
 You do. Export bookings, customers and reports to CSV whenever you like.
+
+### What if Tourtify is down?
+The Today app keeps the next 7 days' departures and traveller lists on your team's phones, and check-ins sync when the connection is back. Every booking is also in your team's booking emails. See [If Tourtify is unreachable](/help/if-tourtify-is-down).
 
 ### How is my data protected?
 Each business's data is isolated at the database level, traffic is encrypted, payment card details never touch Tourtify's servers, and team members can use two-step sign-in. See [Security & privacy](/help/security).

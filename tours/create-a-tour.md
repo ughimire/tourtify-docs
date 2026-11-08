@@ -8,7 +8,7 @@ description: Create a tour in Tourtify step by step, from the basic details thro
 A tour is anything travellers book with you: a day tour, a multi-day trip, a rental or a pass. Each tour has its own page on your website, with prices, dates and a booking form. You can create unlimited tours on every plan.
 
 ::: info Where to find it
-Console › Tours › All tours › **New tour**
+Console › Sales › Tours › All tours › **New tour**
 :::
 
 ## Before you start

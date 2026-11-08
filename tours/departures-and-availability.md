@@ -8,8 +8,8 @@ description: Schedule tour departures in Tourtify, set seats and booking cut-off
 A departure is one date and time of a tour option, with a fixed number of seats. Travellers can only book departures that are open and have seats left. Tourtify holds seats while a traveller pays, so you are never overbooked.
 
 ::: info Where to find it
-Add dates: Console › Tours › *tour* › **Departures** tab
-All departures across tours: Console › Bookings › Departures
+Add dates: Console › Sales › Tours › *tour* › **Departures** tab
+All departures across tours: Console › Operations › Departures
 :::
 
 ## Add departures
@@ -37,7 +37,7 @@ Each departure shows its start, seats booked and status (**Open** or **Closed**)
 - **Download CSV**: the manifest as a spreadsheet.
 - Change seats: edit the seat count. Other departures keep their own capacity.
 
-On **Bookings › Departures**, the same menu offers **Open manifest**, **Change capacity**, **Stop sales** / **Reopen sales** and **Edit tour dates**.
+On **Operations › Departures**, the same menu offers **Open manifest**, **Change capacity**, **Stop sales** / **Reopen sales** and **Edit tour dates**.
 
 ::: tip Stop sales without cancelling
 **Stop sales** closes a departure on your website. Existing bookings stay; nobody new can book it. Use **Reopen sales** to open it again.
@@ -45,7 +45,7 @@ On **Bookings › Departures**, the same menu offers **Open manifest**, **Change
 
 ## The Departures overview
 
-**Bookings › Departures** shows every departure across all tours, in a **List** or a monthly **Calendar** layout.
+**Operations › Departures** shows every departure across all tours, in a **List** or a monthly **Calendar** layout.
 
 - **Next 7 days**: travellers booked and average load.
 - **Full or nearly full**: upcoming departures 80% or more booked.

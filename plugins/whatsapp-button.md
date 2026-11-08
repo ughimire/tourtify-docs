@@ -7,10 +7,12 @@ description: Add a floating WhatsApp button to your website that opens a chat wi
 
 The WhatsApp chat button adds a floating button to your website that opens a WhatsApp chat with you. On tour pages, the message already mentions the tour and its link, so you know what the visitor is looking at. You can set office hours with an away message, and clicks are tracked in your analytics.
 
+The chat button is part of the **WhatsApp** plugin, included on every plan. The same plugin sends [WhatsApp notifications](./whatsapp-notifications) on Growth and Scale.
+
 ::: info At a glance
 - **Plan:** All plans
 - **Category:** Communication
-- **Where:** Console › Plugins › WhatsApp chat button
+- **Where:** Console › Plugins › WhatsApp
 :::
 
 ## How it works
@@ -29,7 +31,7 @@ A WhatsApp message from the visitor, starting with the pre-filled text. With [Go
 ## Turn it on
 
 1. Go to **Console › Plugins**.
-2. Find **WhatsApp chat button** and flip its switch on. The settings drawer opens.
+2. Find **WhatsApp** and flip its switch on. The settings drawer opens. The chat button is the part of the WhatsApp plugin included on every plan.
 3. Enter your **WhatsApp number** in international format, digits only, e.g. `9779801234567`.
 4. Review the messages, look and pages, then select **Save**.
 

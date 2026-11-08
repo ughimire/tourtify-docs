@@ -9,7 +9,7 @@ Checkout is how travellers book on your website. It's built to convert: one clea
 
 ::: info Where to find it
 On your website: any tour page › **Check availability** / **Check dates & book**
-Settings that shape it: Console › Tours › *tour* › **Pricing & options** and **Departures**
+Settings that shape it: Console › Sales › Tours › *tour* › **Pricing & options** and **Departures**
 :::
 
 ## The booking steps

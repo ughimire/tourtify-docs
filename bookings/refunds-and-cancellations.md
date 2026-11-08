@@ -43,7 +43,7 @@ If your deposits are set as non-refundable, the deposit is kept by default in th
 ## How refunds are processed
 
 - A refund is spread over the booking's payments, newest first, never more than each payment can give back.
-- Online payments are refunded through the provider (Stripe, PayPal, Razorpay, Khalti).
+- Online payments are refunded through the provider they were paid with (Stripe, PayPal or a regional provider).
 - The booking's activity shows **Refund sent to the payment provider**, then **Refund completed**.
 
 ## Refund statuses

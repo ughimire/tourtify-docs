@@ -5,21 +5,21 @@ description: Connect your own domain to your Tourtify website with a TXT and CNA
 
 # Custom domains
 
-Every Tourtify website gets a free address, `yourname.tourtify.site`, with HTTPS from day one. Connect your own domain (like `www.yourbusiness.com`) so travellers see your brand. HTTPS is set up and renewed automatically.
+Every Tourtify website gets a free address, `yourname.ttfweb.com`, with HTTPS from day one. Connect your own domain (like `www.yourbusiness.com`) so travellers see your brand. HTTPS is set up and renewed automatically.
 
 ::: info Where to find it
-Console › Settings › Business › Domain
+Console › Settings › Website › Domain
 :::
 
 ## Your free address
 
-Your free `{slug}.tourtify.site` address always works. Once you connect your own domain and make it the main address, the free address **redirects** to it with a permanent (301) redirect, so old links keep working.
+Your free `{slug}.ttfweb.com` address always works. Once you connect your own domain and make it the main address, the free address **redirects** to it with a permanent (301) redirect, so old links keep working.
 
 ## Connect a domain
 
 You'll need access to where you bought the domain (GoDaddy, Namecheap, Cloudflare…).
 
-1. Go to **Settings › Domain**.
+1. Go to **Settings › Website › Domain**.
 2. Under **Connect a domain**, enter your domain, for example `www.yourbusiness.com`, and choose **Add domain**.
 3. Tourtify shows the **DNS records to add**. Copy each one to your DNS provider (see below).
 4. Back in Tourtify, choose **Check now**.
@@ -35,7 +35,7 @@ The domain shows **Waiting for DNS** until both records are found, then **Live**
 | Type | Name / host | Value / points to | Purpose |
 |---|---|---|---|
 | TXT | `_tourtify.<your domain>` | `tourtify-verify=…` (copy from the console) | Proves you own the domain |
-| CNAME | `<your domain>` (e.g. `www`) | `sites.tourtify.site` | Sends visitors to your website |
+| CNAME | `<your domain>` (e.g. `www`) | `sites.ttfweb.com` | Sends visitors to your website |
 
 For a **root domain** (`yourbusiness.com` without www), a CNAME isn't allowed by most providers. Either:
 

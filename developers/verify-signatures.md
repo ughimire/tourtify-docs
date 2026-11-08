@@ -97,7 +97,7 @@ def verify(headers: dict, body: bytes) -> bool:
 
 ## Rotating a secret
 
-Rotate the secret from the endpoint in **Settings › Team & tools › Webhooks**. For the next 24 hours Tourtify signs every message with **both** the new and the old secret, so the header contains two `v1` values. Deploy the new secret to your receiver any time in that window.
+Rotate the secret from the endpoint in **Settings › Integrations & developers › Webhooks**. For the next 24 hours Tourtify signs every message with **both** the new and the old secret, so the header contains two `v1` values. Deploy the new secret to your receiver any time in that window.
 
 ## Troubleshooting
 

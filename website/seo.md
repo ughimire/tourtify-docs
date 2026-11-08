@@ -8,7 +8,7 @@ description: How Tourtify handles SEO titles, meta descriptions, Open Graph, sch
 Tourtify websites are built to rank and to be understood by search engines and AI assistants. Most of the technical work is automatic: structured data, sitemap, canonical URLs and redirects. Your job is the content: a good SEO title, a meta description and a clear focus keyword on every tour, page and post.
 
 ::: info Where to find it
-Tours: Console › Tours › *tour* › **SEO** tab
+Tours: Console › Sales › Tours › *tour* › **SEO** tab
 Pages and posts: the **Search engines** and **SEO score** panels in the editor sidebar
 Destinations, activities, categories: **URL & search engines** in each item's form
 :::
@@ -21,7 +21,7 @@ Destinations, activities, categories: **URL & search engines** in each item's fo
 4. Check the **Google preview**, then save (**Save page & SEO** on tours).
 
 ::: tip Length
-Aim for a title of about 50–60 characters and a description of about 120–155. The SEO score tells you when either is too short or too long.
+Aim for a title of 30–60 characters and a description of 120–160. The SEO score tells you when either is too short or too long.
 :::
 
 ## Use the SEO score

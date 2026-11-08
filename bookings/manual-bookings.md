@@ -8,7 +8,7 @@ description: Add phone, email and walk-in bookings in the Tourtify console using
 Take a booking by phone, email or in your office and add it in the console. Manual bookings use the same prices, seats and availability as your website, so a manual booking can never oversell a departure.
 
 ::: info Where to find it
-Console › Bookings › All bookings › **New booking**
+Console › Sales › Bookings › All bookings › **New booking**
 :::
 
 ## Add a booking

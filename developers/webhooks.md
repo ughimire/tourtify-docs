@@ -61,8 +61,18 @@ Headers follow the [Standard Webhooks](https://www.standardwebhooks.com/) specif
       "status": "confirmed",
       "channel": "direct",
       "seats": 2,
+      "tour": { "id": "0192f3a0-0d1e-7b2c-8a9f-1e2d3c4b5a69", "slug": "everest-view-trek", "title": "Everest View Trek" },
+      "option": { "id": "0192f3a0-2f3a-7c4d-9b8e-2f3e4d5c6b7a", "name": "Standard" },
+      "slot_id": "0192f3a1-4a5b-7d6e-8f9a-3a4b5c6d7e8f",
+      "starts_at": "2026-11-02T07:00:00+05:45",
+      "timezone": "Asia/Kathmandu",
       "total": { "amount_minor": 29800, "currency": "USD" },
-      "customer": { "name": "Alex Morgan", "email": "alex@example.com" }
+      "paid": { "amount_minor": 8940, "currency": "USD" },
+      "balance": { "amount_minor": 20860, "currency": "USD" },
+      "balance_due_at": "2026-10-26T07:00:00+05:45",
+      "customer": { "name": "Alex Morgan", "email": "alex@example.com", "phone": "+44 7700 900123", "locale": "en" },
+      "items": [{ "unit_type_id": "0192f3a1-6b7c-7e8f-9a0b-4b5c6d7e8f90", "label": "Adult", "quantity": 2, "total_minor": 29800 }],
+      "created_at": "2026-10-12T09:19:58+00:00"
     }
   }
 }
@@ -75,7 +85,7 @@ Headers follow the [Standard Webhooks](https://www.standardwebhooks.com/) specif
 | `timestamp` | string | ISO 8601 time the event was sent (`created` is kept for older receivers) |
 | `account` | string | The business the event belongs to (its Tourtify address, e.g. `himalayan-trails`) |
 | `test` | boolean | Present and `true` only for events sent with **Send test event** |
-| `data` | object | Event data. Booking events include `booking_id` and a `booking` summary; `lead.created` includes `lead_id` and a `lead` object |
+| `data` | object | Event data. Booking events include `booking_id` and a `booking` summary (tour, departure, travellers, total, paid and balance, as at sending); `lead.created` includes `lead_id` and a `lead` object |
 
 ### `lead.created`
 

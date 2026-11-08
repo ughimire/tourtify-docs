@@ -200,7 +200,11 @@
 }
 
 @media (max-width: 767px) {
-  .vp-doc th, .vp-doc td { min-width: 140px; }
+  /* Two- and three-column tables fit a phone; wider ones scroll sideways */
+  .vp-doc table { font-size: 13.5px; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .vp-doc th, .vp-doc td { min-width: 96px; padding: 8px 10px; }
+  .vp-doc td code { white-space: normal; overflow-wrap: anywhere; }
+  .vp-doc td .VPBadge { white-space: nowrap; }
 }
 
 /* Home: same frame as the top bar */

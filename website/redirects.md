@@ -8,7 +8,7 @@ description: Send visitors and search engines from old website addresses to the 
 A redirect sends anyone visiting an old address to its new home, with a permanent (301) redirect that also passes your search ranking across. Use it when you move from an old website, or when people have bookmarked or linked to an address that no longer exists.
 
 ::: info Where to find it
-Console › Website › Pages › Redirects
+Console › Website › SEO & URLs › Redirects
 :::
 
 ## When you don't need one
@@ -23,7 +23,7 @@ You only need manual redirects for other addresses, such as pages on your old we
 
 ## Add a redirect
 
-1. Go to **Website › Pages › Redirects**.
+1. Go to **Website › SEO & URLs › Redirects**.
 2. Under **Add a redirect**, enter the **Old address**. You can paste the full old URL (`https://old-site.com/trip/ebc/`) or just the path (`/trip/ebc`).
 3. Enter the **New address**, usually a path on your website such as `/tours/everest-base-camp-trek`.
 4. Choose **Add redirect**.
@@ -31,7 +31,9 @@ You only need manual redirects for other addresses, such as pages on your old we
 Old addresses are matched ignoring upper/lower case, query strings and trailing slashes. Adding the same old address again updates its destination.
 
 ::: warning Addresses you can't redirect
-Redirects never override your website's own sections, so old addresses starting with `/tours`, `/blog`, `/contact`, `/destinations`, `/activities`, `/categories`, `/search`, `/reviews`, `/account`, `/booking` and similar are refused. A redirect to the same address is refused too.
+Redirects never override your website's own sections, so old addresses starting with `/tours`, `/blog`, `/contact`, `/destinations`, `/activities`, `/categories`, `/search`, `/reviews`, `/account`, `/booking` and similar are refused. Renamed tours and moved pages redirect automatically. A redirect to the same address is refused too.
+
+To rename a whole section, for example `/tours` to `/trips`, use [Permalinks](./permalinks): it redirects every old tour address for you.
 :::
 
 ## Find and delete redirects
@@ -49,6 +51,7 @@ Redirects never override your website's own sections, so old addresses starting 
 
 ## Related
 
+- [Permalinks](/website/permalinks)
 - [SEO](/website/seo)
 - [Custom domains](/website/custom-domains)
 - [Pages and blog](/website/pages-and-blog)

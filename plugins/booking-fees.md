@@ -9,8 +9,8 @@ Booking & traveller fees add a fee to every booking: once per booking, per trave
 
 ::: info At a glance
 - **Plan:** Growth and Scale
-- **Category:** Payments
-- **Where:** Console › Plugins › Booking & traveller fees
+- **Category:** Sales
+- **Where:** Console › Plugins › Booking & traveller fees, and Sales › Pricing › Booking fees
 :::
 
 ## How it works
@@ -86,6 +86,6 @@ Keep **Include the fee in displayed prices** on if you sell to travellers in Cal
 ## Related
 
 - [Currency switcher](./currency-switcher)
-- [Deposits & balance payments](./deposits)
+- [Deposits & instalments](./deposits)
 - [Tour pricing](/tours/pricing)
 - [Checkout](/bookings/checkout)
