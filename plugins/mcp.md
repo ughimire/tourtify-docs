@@ -88,12 +88,45 @@ On the sign-in screen you choose, per business, what the app may see. Anything y
 | **See travellers' contact details and the notes they write** | Email, phone, dietary and medical notes, booking notes | see customers |
 | **See payments and balances due** | Payment totals, balances still owed and when | see finance |
 | **See enquiries from travellers** | Enquiries and their messages | see customers |
+| **Set up tours** (Growth and above) | Create draft tours, set their prices and schedule their dates | edit tours |
+| **See your website's pages, theme and design options** | Pages and their sections, the theme, the design guide, the media library | see tours |
+| **Design draft pages and the theme** | Create and edit draft pages, check their design, change the draft theme; publishing waits for your approval | edit tours (the theme also needs *publish the website*) |
+| **Add pictures to your media library from a link** | Import a picture from a public web address, with its alt text | edit tours |
 
 Contact details, enquiries and payments start unticked: tick them only if the app needs them. If you use two-step sign-in, sharing them asks for a fresh code from your authenticator app.
 
 A guide whose login is linked to their guide profile sees only the departures they're assigned to, and no prices or balances, as in the field app.
 
-**What the app can ask Tourtify for:** list and look up tours, list departures, check availability for a party, find bookings, open one booking, open a departure's manifest, list enquiries, a payments summary, balances due, and a sales report for any period.
+**What the app can ask Tourtify for:** list and look up tours, list departures, check availability for a party, find bookings, open one booking, open a departure's manifest, list enquiries, a payments summary, balances due, a sales report for any period, your website's pages, theme and design guide, and your media library.
+
+## Build your website with an AI app
+
+Give the app your content (texts, tour facts, picture links) and ask it to design a page. It works like a designer using the builder:
+
+1. It reads the **design guide**: your theme's colours and fonts, every section type, the 75 ready-made page designs and the page templates.
+2. It creates a **draft page** (from a design, a template or blank) and fills the sections with your content. Pictures from links go to your media library first.
+3. Each save runs a **design check** (template text left in, empty headings, buttons that go nowhere, missing alt text, more than one main heading, no call to action) so the app fixes problems before you see them.
+4. It sends you the **preview link** and the **builder link**. Change anything yourself in the builder; the app sees your edits and never overwrites them (an out-of-date save is refused and the app gets the latest version).
+5. **Publishing** the page or the theme waits for your approval, with the preview and any design problems shown next to Approve.
+
+Draft saves, new pages, theme drafts and imported pictures can each be undone for 30 days. The live website never changes until you approve.
+
+## Changes, approvals and undo
+
+Apps make **drafts** you review in Tourtify. Anything that publishes, deletes, moves money or messages your customers doesn't happen straight away: the app gets *awaiting approval*, the person who connected it gets an email, and the change waits in **Settings › AI apps › Approvals**.
+
+- **Approve** runs the change as you, within your own role (if your role can't make that change, it can't be approved by you).
+- **Reject** drops it; nothing changes. Requests expire after 7 days.
+- The app can ask Tourtify whether a request was approved and see the result.
+
+**Changes made by AI apps** lists everything an app changed, newest first. **Undo** puts a change back for 30 days, unless someone changed the same thing since (an undone draft tour goes to the Trash, where it can be restored).
+
+In the plugin's settings:
+
+- **Pause AI changes** stops every connected app from changing anything or asking for approvals. Reading goes on.
+- **Instructions for AI apps** are your house rules (tone of voice, words to use or avoid, prices you never go below), given to every connected app as your own words.
+
+A retried call never changes twice: apps can send an idempotency key with each change, and Tourtify returns the first result.
 
 ## Connected apps
 
@@ -113,7 +146,7 @@ In the plugin's settings, **Who may connect** lists the roles whose people may c
 - Apps Tourtify hasn't checked are marked **Unverified app**: connect one only if you just added it yourself and recognise its address. The address shown is where Tourtify sends you back to, never a website the app names for itself.
 - Text travellers write (enquiries, notes) is passed to the app marked as untrusted, so the app doesn't treat it as instructions.
 - Keys, passwords, payment-provider secrets and private links are never returned.
-- Limits: 60 requests a minute per connection, and a monthly allowance per business: 1,000 calls on Starter, 5,000 on Growth, 50,000 on Scale. Requests are at most 64 KB. Limits on the sign-in endpoints are generous, because AI apps call from shared addresses, and answer in the standard OAuth error format.
+- Limits: 60 requests a minute per connection, 10 changes a minute and 300 a day, and a monthly allowance per business: 1,000 calls on Starter, 5,000 on Growth, 50,000 on Scale. Requests are at most 64 KB. Limits on the sign-in endpoints are generous, because AI apps call from shared addresses, and answer in the standard OAuth error format.
 - Removing someone from the team, or switching the plugin off, disconnects their apps (or every app) immediately.
 
 ## If an app can't connect
