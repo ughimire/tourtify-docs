@@ -92,6 +92,13 @@ Each campaign moves through **Draft**, **Scheduled**, **Sending**, **Paused**, *
 
 **View report** shows how many were sent, opens (an estimate), clicks, bounces and spam reports, the **Bookings** made within your counting window and their **Revenue**, clicks per link, and every recipient with their status (for example **Delivered**, **Opened**, **Clicked**, **Bounced**, **Unsubscribed**).
 
+## Which address campaigns come from
+
+- **Through Tourtify (default):** campaigns come from Tourtify's campaign sending address with **your business name**, for example *"Everest Treks" &lt;news@…&gt;*. Replies go to your contact email. They are sent on a separate service from your booking emails, so a newsletter can never slow down tickets and confirmations.
+- **From your own domain:** connect [Own email server](./own-email-server) (your own SMTP, Postmark, Mailgun, Amazon SES or SendGrid) and campaigns come from your own address, for example *news@everesttreks.com*, with no monthly limit. Make sure the domain has SPF, DKIM and DMARC set up with that service.
+
+The **Email campaigns** page shows the exact address your campaigns come from.
+
 ## Good to know
 
 - Campaign emails a month: 10,000 on Growth and 50,000 on Scale. The Email campaigns page shows what you've used and when it renews. When the allowance runs out, sending pauses and can be resumed after it renews.
