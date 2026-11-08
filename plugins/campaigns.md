@@ -100,14 +100,29 @@ Campaigns always come from **your own domain**, never from Tourtify's: your news
 
 1. Open **Marketing › Email campaigns** and find **Sending domain**.
 2. Enter your domain (for example *everesttreks.com*) and the address before the @ (for example *news*), then select **Add domain**.
-3. Tourtify shows a few DNS records: the sending service's, plus a `_tourtify` TXT record that proves the domain is yours (and no one else's) on Tourtify. Add each one where your domain's DNS is managed (Cloudflare, GoDaddy, Namecheap, your web host…), copying the **Name** and **Value** exactly. Some DNS providers add your domain to the name for you: then enter only the part before it.
-4. Select **Check now**. DNS changes can take up to an hour; Tourtify also keeps checking by itself.
+3. Tourtify shows a few DNS records: the sending service's, plus a `_tourtify` TXT record that proves the domain is yours (and no one else's) on Tourtify.
+4. Sign in where your domain's DNS is managed (usually where you bought the domain, or your website host: Cloudflare, GoDaddy, Namecheap, Squarespace, Hostinger…), open the DNS settings and add each record:
+   - pick the same **Type** and copy the **Name** and **Value** exactly; leave TTL on Auto;
+   - if your DNS provider adds your domain to the name by itself, enter only the part before your domain;
+   - on Cloudflare, set Proxy status to **DNS only** (grey cloud) for CNAME records;
+   - don't change or delete the records you already have; a DMARC record, when shown, is optional (only if you have none).
+   Someone else manages your website? Select **Copy all records to send them** and send them the list.
+5. Back in Tourtify, select **Check now**. Most changes show within minutes, some take a few hours; Tourtify keeps checking by itself for a week.
 
-When the domain shows **Verified**, campaigns come from that address (for example *news@everesttreks.com*) with your business name, and replies go to your contact email. Free email domains (Gmail, Yahoo, Outlook…) can't be used: their own rules reject mail sent from them by other services.
+**What happens once it's verified**
+
+- Campaigns, Email automations and abandoned-checkout reminders come from your address (for example *news@everesttreks.com*) with your business name. Change the sender name or the part before the @ any time.
+- Replies go to your contact email.
+- Mail is signed for your domain, so inboxes trust it more, and your sending reputation is yours alone.
+- Booking emails (confirmations, tickets, reminders) don't change.
+- Tourtify checks the records every day. If they go missing for a few hours, campaigns pause and the owners get an email; they continue once the records are back.
+- Start with a smaller segment for your first campaigns: inboxes learn to trust a new sender over a few weeks.
+
+Free email domains (Gmail, Yahoo, Outlook…) can't be used: their own rules reject mail sent from them by other services.
 
 **Or use your own email server:** connect [Own email server](./own-email-server) (your own SMTP, Postmark, Mailgun, Amazon SES or SendGrid). Campaigns then go through it from your address, with no monthly limit. Make sure the domain has SPF, DKIM and DMARC set up with that service.
 
-Booking emails (confirmations, tickets, reminders) are not affected by any of this.
+
 
 ## Good to know
 
