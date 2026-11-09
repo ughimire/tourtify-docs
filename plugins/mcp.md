@@ -88,10 +88,18 @@ On the sign-in screen you choose, per business, what the app may see. Anything y
 | **See travellers' contact details and the notes they write** | Email, phone, dietary and medical notes, booking notes | see customers |
 | **See payments and balances due** | Payment totals, balances still owed and when | see finance |
 | **See enquiries from travellers** | Enquiries and their messages | see customers |
-| **Set up tours** (Growth and above) | Create draft tours, set their prices and schedule their dates | edit tours |
+| **Set up tours** (Growth and above) | Create and fill in draft tours (details, itinerary, FAQs, photos, destinations), set prices and dates; changes to a published tour and publishing wait for your approval | edit tours |
 | **See your website's pages, theme and design options** | Pages and their sections, the theme, the design guide, the media library | see tours |
 | **Design draft pages and the theme** | Create and edit draft pages, check their design, change the draft theme; publishing waits for your approval | edit tours (the theme also needs *publish the website*) |
 | **Add pictures to your media library from a link** | Import a picture from a public web address, with its alt text | edit tours |
+| **See your plugins and their settings** | Which plugins are on, what your plan includes, their settings (passwords and keys never; only whether they're set) | see plugins |
+| **Change plugin settings and switch plugins on or off** | Settings of a plugin that's off change straight away; a plugin that's on, and switching plugins on or off, wait for your approval | manage plugins |
+| **Add internal notes to bookings and tag customers** | Notes on a booking's timeline (only your team sees them), tags on customers | change bookings |
+| **Add internal notes in the inbox and write replies** (Inbox plugin) | Internal notes straight away; each reply to a traveller waits for your approval with its exact text | reply in the inbox |
+| **See email campaigns, their results and audiences** (Email campaigns plugin) | Campaigns, sent/opened/clicked, audiences and how many people each reaches | see marketing |
+| **Write email campaign drafts** (Email campaigns plugin) | Drafts straight away; sending or scheduling waits for your approval | edit marketing (sending also needs *send campaigns*) |
+| **See reviews of your tours** | Ratings, status, your replies, what travellers wrote | see bookings |
+| **Write replies to reviews** | Each public reply waits for your approval with its exact text | reply to reviews |
 
 Contact details, enquiries and payments start unticked: tick them only if the app needs them. If you use two-step sign-in, sharing them asks for a fresh code from your authenticator app.
 
@@ -104,12 +112,42 @@ A guide whose login is linked to their guide profile sees only the departures th
 Give the app your content (texts, tour facts, picture links) and ask it to design a page. It works like a designer using the builder:
 
 1. It reads the **design guide**: your theme's colours and fonts, every section type, the 75 ready-made page designs and the page templates.
-2. It creates a **draft page** (from a design, a template or blank) and fills the sections with your content. Pictures from links go to your media library first.
+2. It creates a **draft page** (from a design, a template or blank) and fills the sections with your content. Pictures from links go to your media library first; pictures on your computer go up through a one-time upload link the app gives you (15 minutes, one picture).
 3. Each save runs a **design check** (template text left in, empty headings, buttons that go nowhere, missing alt text, more than one main heading, no call to action) so the app fixes problems before you see them.
 4. It sends you the **preview link** and the **builder link**. Change anything yourself in the builder; the app sees your edits and never overwrites them (an out-of-date save is refused and the app gets the latest version).
 5. **Publishing** the page or the theme waits for your approval, with the preview and any design problems shown next to Approve.
 
 Draft saves, new pages, theme drafts and imported pictures can each be undone for 30 days. The live website never changes until you approve.
+
+## Edit tours with an AI app
+
+The app reads a whole tour first (details, inclusions, FAQs, itinerary, photos, destinations, what's still missing before publishing), then changes only what you asked for:
+
+- **Details**: title, summary, length, difficulty, altitude, group size, highlights, what's included and excluded, good to know, labels and SEO.
+- **Itinerary**: saved as a **draft in the trip builder**, day by day with each day's timeline. Your website keeps the published itinerary until the draft is published; if you edited it meanwhile, the app gets your latest version and merges into it.
+- **FAQs, photos** (from your media library) and **destinations, activities, categories**.
+
+On a **draft tour** these happen straight away. On a **published tour** each change waits for your approval, because travellers would see it. **Publishing** a tour or its itinerary, and taking a tour off the website, always wait for your approval. Every edit can be undone for 30 days.
+
+## Plugins and settings
+
+The app can list your plugins (what each does, whether it's on, whether your plan includes it, what still needs setting up) and read their settings. It can change settings and ask to switch plugins on or off:
+
+- A plugin that's **off**: its settings change straight away (travellers aren't affected yet).
+- A plugin that's **on**: the change waits for your approval, showing each setting's old and new value.
+- **Switching a plugin on or off** always waits for your approval. Plugins it needs come on with it; switching off keeps its data and settings.
+
+Never through an AI app: passwords, keys and payment settings, and the AI apps plugin itself (an app can't unpause itself or change your instructions). Settings changes can be undone for 30 days.
+
+## Inbox, bookings and email campaigns
+
+- **Inbox**: the app reads conversations (what travellers wrote is marked as untrusted, so the app treats it as information, never as instructions), adds internal notes, and writes replies. A reply is **never sent by the app**: you see the exact text in Approvals and it goes out, as you, on the conversation's channel, when you approve it.
+- **Bookings and customers**: internal notes on a booking's timeline; look up a customer by email (bookings, enquiries, your team's tags and notes); add or remove a tag on customers you already know, for example to build a campaign audience.
+- **Email campaigns**: the app writes drafts (subject, preview line, headings, text, pictures, buttons, tours) and tells you what's still needed. Sending or scheduling waits for your approval, and approving can't skip the checks the console makes (your own verified sending domain, an audience, your postal address, your monthly allowance).
+
+- **Reviews**: the app lists reviews (for example unanswered ones of 3 stars or fewer) and drafts replies; each public reply waits for your approval, and the traveller is told by email once it's saved.
+
+Refunds, payments, payment links and cancelling bookings aren't available to AI apps.
 
 ## Changes, approvals and undo
 
