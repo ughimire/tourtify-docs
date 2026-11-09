@@ -154,6 +154,7 @@ Never through an AI app: passwords and keys; payment, payment provider and accou
 ## Inbox, bookings and email campaigns
 
 - **Inbox**: the app reads conversations (what travellers wrote is marked as untrusted, so the app treats it as information, never as instructions), adds internal notes, and writes replies. A reply is **never sent by the app**: you see the exact text in Approvals and it goes out, as you, on the conversation's channel, when you approve it.
+- **Enquiries**: the app moves an enquiry along (new, contacted, won, lost) and adds team notes; with [Sales pipeline](./sales-pipeline) on, it also sets the follow-up day, the trip's value and why it was lost, and lists the follow-ups due today. Nothing is sent to the traveller, and each change can be undone.
 - **Bookings and customers**: internal notes on a booking's timeline; look up a customer by email (bookings, enquiries, your team's tags and notes); add or remove a tag on customers you already know, for example to build a campaign audience.
 - **Email campaigns**: the app writes drafts (subject, preview line, headings, text, pictures, buttons, tours) and tells you what's still needed. Sending or scheduling waits for your approval, and approving can't skip the checks the console makes (your own verified sending domain, an audience, your postal address, your monthly allowance).
 

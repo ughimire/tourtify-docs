@@ -58,6 +58,7 @@ The plugin card shows which insurer is in use and how many policies have been is
 
 - With **Your own insurer**, travellers buy cover on your insurer's site. Nothing is added to the booking and no policy shows in Tourtify.
 - Cover is priced outside your tour's tax.
+- On a tour that takes a [deposit](./deposits), the premium is paid in full with the deposit, because the policy is issued when the booking is made. The deposit percentage applies to the trip only.
 - Turning the plugin off: cover stops being offered at checkout. Policies already sold stay with the insurer.
 
 ## Related

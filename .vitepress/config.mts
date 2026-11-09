@@ -53,6 +53,7 @@ const plugins: DefaultTheme.SidebarItem[] = [
           { text: 'Dynamic pricing', link: '/plugins/dynamic-pricing' },
         ],
       },
+      { text: 'Sales pipeline', link: '/plugins/sales-pipeline' },
       { text: 'Add-ons & extras', link: '/plugins/add-ons-and-extras' },
       { text: 'Booking & traveller fees', link: '/plugins/booking-fees' },
       { text: 'Gift vouchers', link: '/plugins/gift-vouchers' },

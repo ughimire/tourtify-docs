@@ -58,7 +58,7 @@ Open a booking to see everything in one place.
 
 - **Record payment**: money received outside Tourtify (cash, bank transfer, card terminal).
 - **Email payment link**: sends the traveller a secure link to pay what's owed.
-- **More actions**: **Send confirmation again**, **Send trip reminder now**, **Download confirmation PDF**, **Departure manifest**, **Refund…**, **Cancel booking…**
+- **More actions**: **Send confirmation again**, **Send trip reminder now**, **Download confirmation PDF**, **Visa support letter…**, **Departure manifest**, **Refund…**, **Cancel booking…**
 
 **Money**: total, paid, balance and due date, with **Overdue since** when a deadline has passed. With the [Deposits](/plugins/deposits) or [Instalments](/plugins/instalments) plugin you also see the payment schedule and any card on file.
 
@@ -71,6 +71,16 @@ Open a booking to see everything in one place.
 **Customer**: name, email, phone and how many trips they've booked with you.
 
 **Activity**: a full timeline (booking started, payment received, emails sent, refunds) plus internal notes. Use **Add a note** for things like "vegetarian; arriving a day early". Notes are only seen by your team.
+
+### Visa support letter
+
+Travellers who need a visa often have to show the embassy a letter from you. **More actions › Visa support letter…** writes one on your letterhead, in English, for a confirmed booking. It says the booking is confirmed, and whether it's paid in full or the balance is due before departure. The letter lists:
+
+- the trip and its dates
+- each traveller's name, nationality, passport number and date of birth (from [Traveller details](/plugins/traveller-forms); missing details show as a dash)
+- the itinerary, day by day, with where they stay each night
+
+It's signed with your name. Type the embassy it is for under **Addressed to**, or leave it empty for "To whom it may concern". Only people who can see customers' details can make one, and every letter is recorded in the activity log.
 
 ## Bulk actions and export
 

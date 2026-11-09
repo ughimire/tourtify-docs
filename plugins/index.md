@@ -34,6 +34,7 @@ Some plugins bundle related features, each with its own switch under **What’s 
 | [Email automations](./automations) | [Abandoned checkout recovery](./abandoned-checkout) (all plans), your own automations (Growth+) |
 | [WhatsApp](./whatsapp-button) | [Chat button](./whatsapp-button) (all plans), [Notifications & templates](./whatsapp-notifications) (Growth+) |
 | [Suppliers & contracts](./suppliers) | Contracts, supplier bookings, bills & payables (Growth+), allotments (Scale) |
+| [Sales pipeline](./sales-pipeline) | Follow-ups, trip value and lost reasons (all plans), pipeline board and win rate (Growth+) |
 | [AI assistant](./ai-assistant) | Drafting and the website assistant (all plans, with monthly limits), your own Anthropic key (Scale) |
 | [AI app connections (MCP)](./mcp) | Read-only tools (all plans, with monthly limits), write tools with approvals (Growth+, coming soon) |
 
@@ -152,6 +153,7 @@ The categories match the filter tabs on the Plugins page.
 | Plugin | Plan | What it does |
 |---|---|---|
 | [Discounts](./discounts) | <Badge type="info" text="All plans" /> | Every discount in one place, shown on your website and applied at checkout (Group discounts: Growth; Dynamic pricing: Growth) |
+| [Sales pipeline](./sales-pipeline) | <Badge type="info" text="All plans" /> | Follow-up dates with a morning reminder, trip value and lost reasons on every enquiry (Pipeline board and win rate: Growth) |
 | [Add-ons & extras](./add-ons-and-extras) | <Badge type="tip" text="Growth+" /> | Sell extras at checkout: airport transfers, gear rental, travel insurance, single-room upgrades |
 | [Booking & traveller fees](./booking-fees) | <Badge type="tip" text="Growth+" /> | Add a fee per booking, per traveller or as a percentage, e.g |
 | [Waitlist](./waitlist) | <Badge type="tip" text="Growth+" /> | Let travellers join a waitlist for full departures |
