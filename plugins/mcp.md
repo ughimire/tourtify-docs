@@ -117,6 +117,8 @@ Give the app your content (texts, tour facts, picture links) and ask it to desig
 4. It sends you the **preview link** and the **builder link**. Change anything yourself in the builder; the app sees your edits and never overwrites them (an out-of-date save is refused and the app gets the latest version).
 5. **Publishing** the page or the theme waits for your approval, with the preview and any design problems shown next to Approve. The app can ask to add the page to your header menu at the same time.
 6. **Search settings** (search title, description, focus keyword): straight away on a draft page, through approval on a live one.
+7. **Blog posts**: the app writes posts as drafts (Markdown text, excerpt, cover picture, search settings). Publishing a post, or changing one that's already published, waits for your approval; every edit keeps a revision you can restore.
+8. **Destination, activity and category pages**: the app improves their description, search settings, best time to go and FAQs. These pages are public, so each change waits for your approval.
 
 Draft saves, new pages, theme drafts and imported pictures can each be undone for 30 days. The live website never changes until you approve.
 
@@ -128,7 +130,7 @@ The app reads a whole tour first (details, inclusions, FAQs, itinerary, photos, 
 - **Itinerary**: saved as a **draft in the trip builder**, day by day with each day's timeline. Your website keeps the published itinerary until the draft is published; if you edited it meanwhile, the app gets your latest version and merges into it.
 - **FAQs, photos** (from your media library) and **destinations, activities, categories**.
 
-Prices, departure dates and a departure's seats (never below what's booked) or open/closed state work the same way. On a **draft tour** these happen straight away. On a **published tour** each change waits for your approval, because travellers would see it (bookings already made keep their price). **Publishing** a tour or its itinerary, and taking a tour off the website, always wait for your approval. Every edit can be undone for 30 days.
+Prices, departure dates and a departure's seats (never below what's booked) or open/closed state work the same way. On a **draft tour** these happen straight away. On a **published tour** each change waits for your approval, because travellers would see it (bookings already made keep their price). **Publishing** a tour or its itinerary, and taking a tour off the website, always wait for your approval. Edits to a tour's details, FAQs, photos, classification and itinerary draft can be undone for 30 days; prices, dates and publishing are listed under **Changes made by AI apps** and changed back in Tours.
 
 ## Plugins and settings
 
@@ -138,7 +140,7 @@ The app can list your plugins (what each does, whether it's on, whether your pla
 - A plugin that's **on**: the change waits for your approval, showing each setting's old and new value.
 - **Switching a plugin on or off** always waits for your approval. Plugins it needs come on with it; switching off keeps its data and settings.
 
-Never through an AI app: passwords, keys and payment settings, and the AI apps plugin itself (an app can't unpause itself or change your instructions). Settings changes can be undone for 30 days.
+Never through an AI app: passwords and keys; payment, payment provider and accounting plugins, and any bank or payout details in other plugins; and the AI apps plugin itself (an app can't unpause itself or change your instructions). Settings changes can be undone for 30 days.
 
 ## Inbox, bookings and email campaigns
 
@@ -156,6 +158,7 @@ Refunds, payments, payment links and cancelling bookings aren't available to AI 
 Apps make **drafts** you review in Tourtify. Anything that publishes, deletes, moves money or messages your customers doesn't happen straight away: the app gets *awaiting approval*, the person who connected it gets an email, and the change waits in **Settings › AI apps › Approvals**.
 
 - **Approve** runs the change as you, within your own role (if your role can't make that change, it can't be approved by you).
+- If the thing was changed after the app asked (a draft edited, a campaign's audience changed), approving does nothing and says so: ask the app again. A request runs once, however many times Approve is clicked; while AI changes are paused, nothing can be approved.
 - **Reject** drops it; nothing changes. Requests expire after 7 days.
 - The app can ask Tourtify whether a request was approved and see the result.
 
