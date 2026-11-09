@@ -218,7 +218,7 @@ Also in the plugin's settings, **What AI apps may do in this business** switches
 - Apps Tourtify hasn't checked are marked **Unverified app**: connect one only if you just added it yourself and recognise its address. The address shown is where Tourtify sends you back to, never a website the app names for itself.
 - Text travellers write (enquiries, notes) is passed to the app marked as untrusted, so the app doesn't treat it as instructions.
 - Keys, passwords, payment-provider secrets and private links are never returned.
-- Limits: 60 requests a minute per connection, 10 changes a minute and 300 a day, and a monthly allowance per business: 1,000 calls on Starter, 5,000 on Growth, 50,000 on Scale. Requests are at most 64 KB. Limits on the sign-in endpoints are generous, because AI apps call from shared addresses, and answer in the standard OAuth error format.
+- Limits: 60 requests a minute per connection, 30 changes a minute and 300 a day, and a monthly allowance per business: 1,000 calls on Starter, 5,000 on Growth, 50,000 on Scale. Requests are at most 64 KB. Limits on the sign-in endpoints are generous, because AI apps call from shared addresses, and answer in the standard OAuth error format.
 - Removing someone from the team, or switching the plugin off, disconnects their apps (or every app) immediately.
 
 ## If an app can't connect
