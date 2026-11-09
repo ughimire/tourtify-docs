@@ -14,7 +14,7 @@ Every plan includes support from the team that builds Tourtify.
 | Onboarding call | — | ✓ | ✓ |
 | Migration help (WordPress, spreadsheets) | Self-serve importer | Assisted | Assisted |
 
-- **Email:** support@tourtify.com
+- **Email:** hello@tourtify.com
 - **Security issues:** security@tourtify.com ([details](./security#report-a-vulnerability))
 - **Sales and partnerships:** sales@tourtify.com
 

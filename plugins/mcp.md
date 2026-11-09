@@ -32,21 +32,23 @@ Connect the AI app your team already uses (ChatGPT, Claude, Cursor, VS Code or a
 
 ### Claude
 
-1. In Claude (claude.ai or the desktop app), open **Settings › Connectors** and choose **Add custom connector**.
-2. Name it Tourtify and paste the server URL.
-3. Select **Connect**. Claude opens Tourtify: sign in, choose the business and what Claude may see, then **Allow**.
+1. In Claude (claude.ai or the desktop app), open **Customize › Connectors**, select **+ Add** and choose **Add custom connector**.
+2. Name it Tourtify, paste the server URL, select **Continue**, then **Add**.
+3. Select **Connect**. Claude opens Tourtify: sign in, choose the business and what Claude may do, then **Allow**.
+
+On a **Team or Enterprise** plan, an owner adds it first in **Organization settings › Connectors** (**Add › Custom › Web**, paste the URL, **Add**); then each person opens **Customize › Connectors** and selects **Connect**. Free plans allow one custom connector.
 
 ### ChatGPT
 
-1. In ChatGPT, open **Settings › Apps & Connectors › Advanced settings** and turn on developer mode.
-2. Choose **Create**, name it Tourtify, paste the server URL and pick **OAuth**.
-3. Sign in to Tourtify, choose the business and what ChatGPT may see, then **Allow**.
+1. In ChatGPT on the web, open **Plugins** in the sidebar, select **+** and choose **Add custom MCP server**. In older versions it's **Settings › Apps & Connectors › Advanced settings › Developer mode**, then **Create**.
+2. Name it Tourtify, paste the server URL and keep **OAuth** as the sign-in method.
+3. Sign in to Tourtify, choose the business and what ChatGPT may do, then **Allow**.
 
-Developer mode and custom apps depend on your ChatGPT plan.
+Custom MCP servers need a paid ChatGPT plan; on Business plans only admins can add them. OpenAI moves this menu often: if you can't find it, search ChatGPT's help for "custom MCP server".
 
 ### Cursor
 
-In Cursor, open **Settings › MCP › Add new MCP server**, or add this to `~/.cursor/mcp.json`:
+In Cursor, open **Customize** in the sidebar › **MCP** and add a server, or add this to `~/.cursor/mcp.json` (all projects) or `.cursor/mcp.json` (one project):
 
 ```json
 {
@@ -60,7 +62,7 @@ Cursor opens Tourtify in your browser: sign in and **Allow**.
 
 ### VS Code
 
-Run **MCP: Add Server** from the command palette, choose **HTTP** and paste the server URL, or add this to `.vscode/mcp.json`:
+Run **MCP: Add Server** from the Command Palette, choose **HTTP (HTTP or Server-Sent Events)**, paste the server URL and name it `tourtify`. Or add this to `.vscode/mcp.json` in your workspace:
 
 ```json
 {
@@ -78,7 +80,9 @@ Any app that supports remote MCP servers (Streamable HTTP) with OAuth sign-in ca
 
 ## What an app may see
 
-On the sign-in screen you choose, per business, what the app may see. Anything your role doesn't include is shown greyed out and can't be shared.
+On the sign-in screen you choose, per business, what the app may do, grouped by area: **Website**, **Tours, prices and dates**, **Bookings and customers**, **Payments and refunds**, **Inbox and reviews**, **Marketing**, **Plugins and business settings** and **Reports**. **Only my website** ticks just the website; a whole area is one tick. Anything your role doesn't include is shown greyed out and can't be shared.
+
+You can change this later without reconnecting: **Settings › AI apps › Capabilities** next to the app. Capabilities you remove stop on the app's next call; ones you add start within 15 minutes. Team admins can take capabilities away from other people's apps, but only the person who connected an app can add to it.
 
 | Permission | What the app can see | Needs your role to |
 |---|---|---|
@@ -100,6 +104,7 @@ On the sign-in screen you choose, per business, what the app may see. Anything y
 | **Write email campaign drafts** (Email campaigns plugin) | Drafts straight away; sending or scheduling waits for your approval | edit marketing (sending also needs *send campaigns*) |
 | **See reviews of your tours** | Ratings, status, your replies, what travellers wrote | see bookings |
 | **Write replies to reviews** | Each public reply waits for your approval with its exact text | reply to reviews |
+| **Ask to cancel or refund bookings, record payments and send payment links** | Each one waits for your approval | cancel bookings, take or refund payments |
 
 Contact details, enquiries and payments start unticked: tick them only if the app needs them. If you use two-step sign-in, sharing them asks for a fresh code from your authenticator app.
 
@@ -112,14 +117,15 @@ A guide whose login is linked to their guide profile sees only the departures th
 Give the app your content (texts, tour facts, picture links) and ask it to design a page. It works like a designer using the builder:
 
 1. It reads the **design guide**: your theme's colours and fonts, every section type, the 75 ready-made page designs and the page templates.
-2. It creates a **draft page** (from a design, a template or blank) and fills the sections with your content. Pictures from links go to your media library first; pictures on your computer go up through a one-time upload link the app gives you (15 minutes, one picture).
+2. It creates a **draft page** from one of the designs (or restyles an existing page, or your home page, with a design), then fills it **slot by slot**: every heading, paragraph, button, picture and list item gets your words and pictures, while the design's layout, columns and spacing stay exactly as made. Sections it has no real content for are removed rather than invented. Pictures from links go to your media library first; pictures on your computer go up through a one-time upload link the app gives you (15 minutes, one picture). It can also write each picture's alt text, title and caption (with undo).
 3. Each save runs a **design check** (template text left in, empty headings, buttons that go nowhere, missing alt text, more than one main heading, no call to action) so the app fixes problems before you see them.
-4. It sends you the **preview link** and the **builder link**. Change anything yourself in the builder; the app sees your edits and never overwrites them (an out-of-date save is refused and the app gets the latest version).
+4. It looks at **screenshots** of the draft at desktop and phone width (where your Tourtify server has screenshots switched on) and fixes what looks wrong. Then it sends you the **preview link** and the **builder link**. Change anything yourself in the builder; the app sees your edits and never overwrites them (an out-of-date save is refused and the app gets the latest version).
 5. **Publishing** the page or the theme waits for your approval, with the preview and any design problems shown next to Approve. The app can ask to add the page to your header menu at the same time.
 6. **Search settings** (search title, description, focus keyword): straight away on a draft page, through approval on a live one.
 7. **Blog posts**: the app writes posts as drafts (Markdown text, excerpt, cover picture, search settings). Publishing a post, or changing one that's already published, waits for your approval; every edit keeps a revision you can restore.
 8. **Destination, activity and category pages**: the app improves their description, search settings, best time to go and FAQs. These pages are public, so each change waits for your approval.
 9. **Menus**: the app reads your header and footer menus and can propose new items (pages, tours, destinations, special pages, links). Menus show on every page, so a change waits for your approval, listed item by item.
+10. **Home page**: the home page is part of your theme. The app designs it in the theme draft (same sections as pages, with a design check and a preview link); it goes live when you approve publishing the theme.
 
 Draft saves, new pages, theme drafts and imported pictures can each be undone for 30 days. The live website never changes until you approve.
 
@@ -130,6 +136,7 @@ The app reads a whole tour first (details, inclusions, FAQs, itinerary, photos, 
 - **Details**: title, summary, length, difficulty, altitude, group size, highlights, what's included and excluded, good to know, labels and SEO.
 - **Itinerary**: saved as a **draft in the trip builder**, day by day with each day's timeline. Your website keeps the published itinerary until the draft is published; if you edited it meanwhile, the app gets your latest version and merges into it.
 - **FAQs, photos** (from your media library) and **destinations, activities, categories**.
+- **Translations** (Multilingual plugin): the app reads every text of a tour next to its main-language source and saves the translation for one of your website's languages. Draft tours change straight away, published ones after your approval; undo for 30 days.
 - **Options and prices**: ways to book a tour (for example Group and Private), each with its traveller types (Adult, Child 2–11…), prices and group prices, and how it's booked (instantly, on request, or by enquiry). Deposits stay in Tourtify.
 
 Prices, departure dates and a departure's seats (never below what's booked) or open/closed state work the same way. On a **draft tour** these happen straight away. On a **published tour** each change waits for your approval, because travellers would see it (bookings already made keep their price). **Publishing** a tour or its itinerary, and taking a tour off the website, always wait for your approval. Edits to a tour's details, FAQs, photos, classification and itinerary draft can be undone for 30 days; prices, dates and publishing are listed under **Changes made by AI apps** and changed back in Tours.
@@ -153,7 +160,23 @@ Never through an AI app: passwords and keys; payment, payment provider and accou
 - **Promo codes** (Discounts plugin): the app lists your codes and their use. A new code, or one switched back on, waits for your approval because it works at checkout straight away; pausing a code happens at once. The same rules as in the console apply (dates, tours, uses, up to 100%).
 - **Reviews**: the app lists reviews (for example unanswered ones of 3 stars or fewer) and drafts replies; each public reply waits for your approval, and the traveller is told by email once it's saved.
 
-Refunds, payments, payment links and cancelling bookings aren't available to AI apps.
+- **Money on bookings** (its own permission, unticked at first): the app can ask to cancel a booking, refund an amount, record money received (cash, transfer, card terminal) or email a payment link. Each one waits for your approval with the booking, traveller and amount shown, and nothing happens if the booking changed after the app asked. Refunds above your Refund approvals limit still need a second person.
+- **Customers**: a list of people who booked (search by name or email, filter by tag).
+- **Email automations** (Email automations plugin): the app writes automations (when, subject, text with merge tags); new ones are saved switched off, and switching one on, or changing one that's on, waits for your approval. It can also build campaign audiences from rules.
+
+## Operations and reports
+
+- **Guides** (Tour guides plugin): the app suggests guides for a departure (languages, skills, clashes, time off) and assigns one, who is asked to accept as usual. An assignment can be undone while the guide hasn't answered.
+- **Email a departure's travellers**: written by the app, sent only when you approve the exact text.
+- **Cancel a departure** with its bookings (and refunds unless you say otherwise): always through approval.
+- **Profit per departure** (Costs & profit plugin) and the sales report.
+- **Suppliers** (what's still owed, never bank details), **trekking crew** (licence and insurance expiry), **rentals** (gear, what goes out and comes back, overdue) and the **point-of-sale report**, each when its plugin is on.
+
+## Business profile, announcement and clean-up
+
+- **Business profile**: name, contact email and phone, address, legal details, brand colour, email sign-off. Travellers see these everywhere, so a change waits for your approval, shown old → new.
+- **Announcement bar**: showing or changing it waits for approval; switching it off is immediate.
+- **Trash and delete**: a draft page or post goes to the Trash straight away (with undo); a live one, a tour, or deleting a picture for good always waits for your approval (deleting a picture lists where it's still used). The app can also discard a page's unpublished draft.
 
 ## Changes, approvals and undo
 
@@ -181,7 +204,11 @@ Everyone sees and disconnects their own apps; people who manage the team see and
 
 ## Who may connect
 
-In the plugin's settings, **Who may connect** lists the roles whose people may connect apps (all of them by default; owners always may). Taking a role off stops its people's apps on their next request. If the business requires two-step sign-in (Team › Security), people without it can't connect an app, and connected apps stop working until they turn it on.
+In the plugin's settings, **Who may connect** lists the roles whose people may connect apps: owners always may, and admins by default. Add agents, guides or custom roles only if they need it. Taking a role off stops its people's apps on their next request. If the business requires two-step sign-in (Team › Security), people without it can't connect an app, and connected apps stop working until they turn it on.
+
+## What AI apps may do in this business
+
+Also in the plugin's settings, **What AI apps may do in this business** switches whole areas off for every app at once (for example everything but the website). An area switched off here can't be ticked when connecting, and apps already connected lose it on their next call. Each app can then be narrowed further with its own **Capabilities**.
 
 ## Security
 
