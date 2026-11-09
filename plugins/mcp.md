@@ -115,7 +115,8 @@ Give the app your content (texts, tour facts, picture links) and ask it to desig
 2. It creates a **draft page** (from a design, a template or blank) and fills the sections with your content. Pictures from links go to your media library first; pictures on your computer go up through a one-time upload link the app gives you (15 minutes, one picture).
 3. Each save runs a **design check** (template text left in, empty headings, buttons that go nowhere, missing alt text, more than one main heading, no call to action) so the app fixes problems before you see them.
 4. It sends you the **preview link** and the **builder link**. Change anything yourself in the builder; the app sees your edits and never overwrites them (an out-of-date save is refused and the app gets the latest version).
-5. **Publishing** the page or the theme waits for your approval, with the preview and any design problems shown next to Approve.
+5. **Publishing** the page or the theme waits for your approval, with the preview and any design problems shown next to Approve. The app can ask to add the page to your header menu at the same time.
+6. **Search settings** (search title, description, focus keyword): straight away on a draft page, through approval on a live one.
 
 Draft saves, new pages, theme drafts and imported pictures can each be undone for 30 days. The live website never changes until you approve.
 
@@ -127,7 +128,7 @@ The app reads a whole tour first (details, inclusions, FAQs, itinerary, photos, 
 - **Itinerary**: saved as a **draft in the trip builder**, day by day with each day's timeline. Your website keeps the published itinerary until the draft is published; if you edited it meanwhile, the app gets your latest version and merges into it.
 - **FAQs, photos** (from your media library) and **destinations, activities, categories**.
 
-On a **draft tour** these happen straight away. On a **published tour** each change waits for your approval, because travellers would see it. **Publishing** a tour or its itinerary, and taking a tour off the website, always wait for your approval. Every edit can be undone for 30 days.
+Prices, departure dates and a departure's seats (never below what's booked) or open/closed state work the same way. On a **draft tour** these happen straight away. On a **published tour** each change waits for your approval, because travellers would see it (bookings already made keep their price). **Publishing** a tour or its itinerary, and taking a tour off the website, always wait for your approval. Every edit can be undone for 30 days.
 
 ## Plugins and settings
 
@@ -145,6 +146,7 @@ Never through an AI app: passwords, keys and payment settings, and the AI apps p
 - **Bookings and customers**: internal notes on a booking's timeline; look up a customer by email (bookings, enquiries, your team's tags and notes); add or remove a tag on customers you already know, for example to build a campaign audience.
 - **Email campaigns**: the app writes drafts (subject, preview line, headings, text, pictures, buttons, tours) and tells you what's still needed. Sending or scheduling waits for your approval, and approving can't skip the checks the console makes (your own verified sending domain, an audience, your postal address, your monthly allowance).
 
+- **Promo codes** (Discounts plugin): the app lists your codes and their use. A new code, or one switched back on, waits for your approval because it works at checkout straight away; pausing a code happens at once. The same rules as in the console apply (dates, tours, uses, up to 100%).
 - **Reviews**: the app lists reviews (for example unanswered ones of 3 stars or fewer) and drafts replies; each public reply waits for your approval, and the traveller is told by email once it's saved.
 
 Refunds, payments, payment links and cancelling bookings aren't available to AI apps.
