@@ -119,6 +119,7 @@ Give the app your content (texts, tour facts, picture links) and ask it to desig
 6. **Search settings** (search title, description, focus keyword): straight away on a draft page, through approval on a live one.
 7. **Blog posts**: the app writes posts as drafts (Markdown text, excerpt, cover picture, search settings). Publishing a post, or changing one that's already published, waits for your approval; every edit keeps a revision you can restore.
 8. **Destination, activity and category pages**: the app improves their description, search settings, best time to go and FAQs. These pages are public, so each change waits for your approval.
+9. **Menus**: the app reads your header and footer menus and can propose new items (pages, tours, destinations, special pages, links). Menus show on every page, so a change waits for your approval, listed item by item.
 
 Draft saves, new pages, theme drafts and imported pictures can each be undone for 30 days. The live website never changes until you approve.
 
@@ -129,6 +130,7 @@ The app reads a whole tour first (details, inclusions, FAQs, itinerary, photos, 
 - **Details**: title, summary, length, difficulty, altitude, group size, highlights, what's included and excluded, good to know, labels and SEO.
 - **Itinerary**: saved as a **draft in the trip builder**, day by day with each day's timeline. Your website keeps the published itinerary until the draft is published; if you edited it meanwhile, the app gets your latest version and merges into it.
 - **FAQs, photos** (from your media library) and **destinations, activities, categories**.
+- **Options and prices**: ways to book a tour (for example Group and Private), each with its traveller types (Adult, Child 2–11…), prices and group prices, and how it's booked (instantly, on request, or by enquiry). Deposits stay in Tourtify.
 
 Prices, departure dates and a departure's seats (never below what's booked) or open/closed state work the same way. On a **draft tour** these happen straight away. On a **published tour** each change waits for your approval, because travellers would see it (bookings already made keep their price). **Publishing** a tour or its itinerary, and taking a tour off the website, always wait for your approval. Edits to a tour's details, FAQs, photos, classification and itinerary draft can be undone for 30 days; prices, dates and publishing are listed under **Changes made by AI apps** and changed back in Tours.
 
