@@ -28,7 +28,7 @@ The Hotel rooms plugin adds hotel rooms to your tour packages. Travellers book a
 - **Reservations** lists each guest's room and stay, with its status: **Reserved**, **Sent to hotel**, **Confirmed by hotel** or **Cancelled**.
 - **Rooming lists** per departure, ready to download or email to each hotel.
 
-Rooms are held at checkout and released if the booking is cancelled or the checkout expires unpaid.
+Rooms are held at checkout and released if the booking is cancelled or the checkout expires unpaid. If the hotel already had the booking on a rooming list you sent, it gets an email asking it to cancel those rooms.
 
 ## Turn it on
 

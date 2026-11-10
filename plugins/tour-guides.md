@@ -96,7 +96,7 @@ Each guide's profile has a **Schedule link**. Use **Copy** to send it to them. I
 
 ## Guides who sign in
 
-A guide can also have a console login: invite them in **Settings › Team & access › Team** with the **Guide** role, then on their guide profile choose them under **Console login**. Signed in, they see only the departures they're assigned to (and haven't declined): their dashboard, departure list, manifests, check-in and ticket scanning for those departures, and the bookings on them, without customer lists or money, as for any guide. Pages that list every departure's travellers (reviews, waivers, waitlist, other guides' assignments) are not shown. Owners and admins are never limited by this, and a guide login without a linked profile keeps the guide role's usual read-only view.
+A guide can also have a console login: invite them in **Settings › Team & access › Team** with the **Guide** role, then on their guide profile choose them under **Console login**. Signed in, they see only the departures they're assigned to (and haven't declined): their dashboard, departure list, manifests, check-in and ticket scanning for those departures, and the bookings on them, without customer lists or money, as for any guide. Manifests and their spreadsheet show travellers' phone numbers but not their email addresses. Pages that list every departure's travellers (reviews, waivers, waitlist, other guides' assignments) are not shown. Owners and admins are never limited by this, and a guide login without a linked profile keeps the guide role's usual read-only view.
 
 ## Payouts
 

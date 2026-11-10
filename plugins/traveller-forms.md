@@ -76,7 +76,7 @@ Passport scans are sensitive. Keep the retention period as short as your operati
 - Waiver signing is part of the same traveller links when [Waivers & consent](./waivers) is on, and these reminders chase unsigned waivers too.
 - With [Waivers & consent](./waivers), a date of birth question is used to check the traveller's age on the trip date: under the waiver's minor age, a guardian signs for them.
 - Hotel rooming lists use guest names from traveller details when collected.
-- Turning the plugin off stops travellers being asked for their details. Answers already given are kept.
+- Turning the plugin off stops travellers being asked for their details. Answers already given are kept but hidden from bookings, manifests and exports; turning it back on shows them again.
 
 ## Related
 

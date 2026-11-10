@@ -105,6 +105,8 @@ Set it to **Active: sends automatically** or **Paused: saved but not sent**, the
 | `{review_url}` | Link to review their trip |
 | `{business}` | Your business name |
 
+A list item whose tags are all empty for that traveller is left out, so "- Meeting point: {meeting_point}" disappears on a tour without a meeting point, and "- Pay the rest: {pay_url}" once the booking is paid.
+
 ### Manage automations
 
 Each automation shows **Active** or **Paused**, which tours it covers, how many were sent and when the last one went. If sends failed, the row shows how many and the last error. From the actions menu you can **Edit**, **Duplicate**, **Pause** or **Switch on**, and **Delete**. Deleting stops anything more being sent; messages already sent stay on each booking's timeline.

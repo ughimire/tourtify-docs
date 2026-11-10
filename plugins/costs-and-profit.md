@@ -17,7 +17,7 @@ Costs & profit records what each departure costs you: drivers, hotels, park fees
 
 Profit is revenue minus costs:
 
-- **Revenue**: what the bookings that go ahead paid, net of refunds, excluding tax.
+- **Revenue**: what the bookings that go ahead paid, net of refunds, excluding tax, plus any money kept from cancelled bookings (a cancellation fee or a non-refundable deposit).
 - **Costs**: the tour's default costs (counted live on each departure unless you change them there), the departure's own cost lines, and guide pay.
 - **Commission and fees**: agent commission, and your payment provider's fee on online payments (the percentage you set).
 
@@ -69,7 +69,7 @@ Departures appear once they have bookings or costs.
 
 ## Good to know
 
-- Costs in a different currency from the departure's bookings aren't added up; they're listed as "Other currency, not counted".
+- The departure's currency is the one most of its bookings were paid in. Bookings and costs in another currency are converted with your rates in **Settings › Exchange rates**; without a rate, a cost is listed as "Other currency, not counted" and a booking's money is left out of the revenue, with a note on the departure. Its travellers still count for per-traveller costs.
 - Turning the plugin off: the profit report and the costs panel on manifests disappear. Cost lines and default costs are kept.
 
 ## Related
