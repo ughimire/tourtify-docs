@@ -58,7 +58,7 @@ Open a booking to see everything in one place.
 
 - **Record payment**: money received outside Tourtify (cash, bank transfer, card terminal).
 - **Email payment link**: sends the traveller a secure link to pay what's owed.
-- **More actions**: **Send confirmation again**, **Send trip reminder now**, **Download confirmation PDF**, **Visa support letter…**, **Departure manifest**, **Refund…**, **Cancel booking…**
+- **More actions**: **Send confirmation again**, **Send trip reminder now**, **Download confirmation PDF**, **Visa support letter…**, **Log a complaint…**, **Departure manifest**, **Refund…**, **Cancel booking…**
 
 **Money**: total, paid, balance and due date, with **Overdue since** when a deadline has passed. With the [Deposits](/plugins/deposits) or [Instalments](/plugins/instalments) plugin you also see the payment schedule and any card on file.
 

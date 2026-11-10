@@ -63,6 +63,7 @@ Every request, approval, rejection, withdrawal and escalation is also in the boo
 ## Good to know
 
 - Turning the plugin off: new refunds go out without approval. Requests still waiting aren't sent, so approve or reject them first. Your limits and approval history are kept.
+- Approval covers refunds your team starts. When a traveller cancels on their own in **My booking** (the Self-service plugin), the refund follows your cancellation policy straight away, because the policy already fixes the amount. To have those checked as well, turn off "Travellers can cancel" in the Self-service settings.
 - Give the "Approve refunds" permission to the people who should approve in **Settings › Team & access › Team**.
 
 ## Related

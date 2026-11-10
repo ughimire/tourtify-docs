@@ -182,6 +182,7 @@ const guide: DefaultTheme.SidebarItem[] = [
       { text: 'Manifests & check-in', link: '/bookings/manifests-and-check-in' },
       { text: 'Enquiries', link: '/bookings/enquiries' },
       { text: 'Customers & traveller portal', link: '/bookings/customers' },
+      { text: 'Complaints', link: '/bookings/complaints' },
       { text: 'Reviews', link: '/bookings/reviews' },
       { text: 'Emails', link: '/bookings/emails' },
       { text: 'Reports', link: '/bookings/reports' },

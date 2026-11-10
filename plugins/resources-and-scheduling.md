@@ -39,6 +39,19 @@ The pages share one set of tabs: **Calendar**, **Schedule**, **Conflicts**, **Ta
 - On **Task templates**, select **Add task template** for a tour (or **Every tour**). It becomes a task on each departure of the tour when it gets its first booking, due **Before or after** the departure.
 - On **Tasks**, select **Add task** for a one-off task on a departure, or a **General task (no departure)**. Assign it, **Mark done**, or tick several to export or delete them.
 
+## Vehicle register
+
+Open a vehicle or boat on **Resources** to keep its **Registration** (number plate or hull number), **Make and model** and **Year**.
+Under **Documents**, select **Add document** for each paper it must keep current: registration, insurance, roadworthiness,
+a route or operator permit, a licence or another document, each with its number, expiry date and notes. Select the pencil to
+edit one, or the cross to remove it.
+
+- The resource list shows **Papers expire soon** when a document expires within 30 days and **Papers expired** once one has.
+- Assigning the vehicle to a departure that runs past an expiry date (multi-day trips count to their last day) gives a
+  **Vehicle papers expire** warning, for example “Insurance for Bus 2 expires on 3 Dec, during this trip.” It also appears on
+  **Conflicts** and in the morning email.
+- Changing a document re-checks the vehicle's coming departures, so renewing the papers clears the warning.
+
 ## Calendar feeds
 
 On **Resources**, **Create calendar link** gives a vehicle or other resource a private calendar feed you can add to Google Calendar, Outlook or Apple Calendar; team members get theirs from **My calendar feed**. Copy the link straight away: it is shown only once. **Replace calendar link** stops the old one working.
@@ -69,6 +82,7 @@ service.
 | Too little time between trips: less than the travel buffer | Warning |
 | A qualification (first aid, licence, insurance) that expires before the trip **ends** | Warning |
 | A qualification the tour requires that the guide doesn't hold | Warning |
+| A vehicle or boat document (registration, insurance, roadworthiness, permit) that expires before the trip **ends** | Warning |
 | More travellers booked than seats on the vehicles and boats; places on sale above the seats | Warning |
 | Too few guides for the travellers (travellers per guide) | Warning |
 | Travellers booked in a language no guide on the departure speaks | Warning |
