@@ -25,6 +25,7 @@ Travel insurance offers cancellation and travel cover at checkout from a license
 **After booking**
 
 - The insurer issues the policy once the booking is paid.
+- Cover isn't offered with pay on arrival: it's bought before the trip. With a deposit, the whole premium is part of what's paid when booking.
 - If the booking is cancelled or the unpaid checkout expires, the policy is cancelled too.
 - Claims go to the insurer, not to you.
 

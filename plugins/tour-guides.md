@@ -21,7 +21,7 @@ On tour pages, a "Meet your guide" section with the assigned guide's name, photo
 
 **What the guide sees**
 
-- An email when a booking on their departure is confirmed, with the traveller count and booking details.
+- An email when a booking on their departure is confirmed, with the traveller count and booking details (the guest's name and phone, not their email address).
 - Optionally, an email when a booking is cancelled.
 - A personal schedule link: a mobile page with their upcoming departures, the manifest, check-in and waiver status. No login is needed.
 
